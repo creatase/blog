@@ -59,7 +59,7 @@ const Bio = () => {
       <div>
         Written by <strong>{author.name}</strong><br/>
         {author.summary}
-        <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+        <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noreferrer">
           Twitter
         </a>
       </div>
