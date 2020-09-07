@@ -37,15 +37,7 @@ keywords:
 
 続いてレイアウト編、こっちもこっちで大変でした。とりあえず本番環境にあげてみよーっと思ってあげてスマホで確認してみたら…
 
-> あかーん 笑
-> 本番にあげてみたけど予想以上の崩れっぷり 爆笑
-> やはり一週間では無理だったか…orz
-> 作業明日に持ち越しだ٩( 'ω' )و
-> 今日はこのまま寝る（え
-> 
-> — ゆきた＠Webエンジニアお休み中💤 (@yukita\_jp) [May 23, 2018](https://twitter.com/yukita_jp/status/999283401772318721?ref_src=twsrc%5Etfw)
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あかーん 笑<br>本番にあげてみたけど予想以上の崩れっぷり 爆笑<br>やはり一週間では無理だったか…orz<br>作業明日に持ち越しだ٩( &#39;ω&#39; )و<br>今日はこのまま寝る（え</p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/999283401772318721?ref_src=twsrc%5Etfw">May 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 そしてこの日（昨日）はさっさと寝ました。
 

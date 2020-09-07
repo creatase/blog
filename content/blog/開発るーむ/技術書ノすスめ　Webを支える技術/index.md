@@ -14,15 +14,7 @@ keywords:
 
 勉強報告の一環と称して、これまでに読んだ本をサックリと紹介しています。
 
-> 読・了٩( 'ω' )و！(310ページ)
-> 
-> 個人的にはRESTを割と詳細に理解できたのが良かった。それ以外にもHTTPメソッドやステータスコードなど幅広く網羅されていて辞書的な使い方もできそう！
-> 
-> これでりょうさん[@neer\_chan](https://twitter.com/neer_chan?ref_src=twsrc%5Etfw) さんがオススメしている４冊は全部読んだ。知識を頭の片隅にってのも今なら分かる [pic.twitter.com/dn7CdiVbhE](https://t.co/dn7CdiVbhE)
-> 
-> — ゆきた＠Webエンジニアお休み中💤 (@yukita\_jp) [June 19, 2018](https://twitter.com/yukita_jp/status/1008999544061812736?ref_src=twsrc%5Etfw)
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了٩( &#39;ω&#39; )و！(310ページ)<br><br>個人的にはRESTを割と詳細に理解できたのが良かった。それ以外にもHTTPメソッドやステータスコードなど幅広く網羅されていて辞書的な使い方もできそう！<br><br>これでりょうさん<a href="https://twitter.com/neer_chan?ref_src=twsrc%5Etfw">@neer_chan</a> さんがオススメしている４冊は全部読んだ。知識を頭の片隅にってのも今なら分かる <a href="https://t.co/dn7CdiVbhE">pic.twitter.com/dn7CdiVbhE</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1008999544061812736?ref_src=twsrc%5Etfw">June 19, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 今回は「Webを支える技術」です。
 

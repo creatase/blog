@@ -14,14 +14,7 @@ keywords:
 
 勉強報告の一環として今まで読んだ本の中からこれはよかったと思える本を紹介しています。
 
-> 読・了٩( 'ω' )و
-> 
-> 最新の内容って訳じゃないからUIとか違ったりするけど、これ読めば実用的なワークフローは理解できるし、ForkやPull Requestしたことない人でも実際にやってみることができて非常によい✨会社に導入したい人にも👌
-> 情報くれたねこさん [@xVanillaChai](https://twitter.com/xVanillaChai?ref_src=twsrc%5Etfw) に感謝✨（279ページ） [pic.twitter.com/fWcMVBTJdM](https://t.co/fWcMVBTJdM)
-> 
-> — ゆきた＠Webエンジニアお休み中💤 (@yukita\_jp) [July 8, 2018](https://twitter.com/yukita_jp/status/1015864801807880192?ref_src=twsrc%5Etfw)
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了٩( &#39;ω&#39; )و<br><br>最新の内容って訳じゃないからUIとか違ったりするけど、これ読めば実用的なワークフローは理解できるし、ForkやPull Requestしたことない人でも実際にやってみることができて非常によい✨会社に導入したい人にも👌<br>情報くれたねこさん @xVanillaChai に感謝✨（279ページ） <a href="https://t.co/fWcMVBTJdM">pic.twitter.com/fWcMVBTJdM</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1015864801807880192?ref_src=twsrc%5Etfw">July 8, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 今回は「GitHub実践入門」です。言わずと知れた良書かも。。
 

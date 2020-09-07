@@ -14,17 +14,7 @@ keywords:
 
 勉強報告の一環として、私が今まで読んだ本の紹介をしていきたいと思います。唐突ですが。。。
 
-> 読・了！(360ページ)
-> 
-> モヤモヤっとしてたオブジェクト指向の輪郭を綺麗に描き出して読ませてくれた間違いなく良書でした！
-> 
-> オブジェクト指向言語だけでなくプログラミング言語の変遷と進化という観点からも書かれていて分かりやすく読みやすかったです！
-> 
-> おすすめツイートしてくれた方に感謝✨ [pic.twitter.com/EbhciIGCeV](https://t.co/EbhciIGCeV)
-> 
-> — ゆきた＠Webエンジニアお休み中💤 (@yukita\_jp) [June 14, 2018](https://twitter.com/yukita_jp/status/1007059158460317696?ref_src=twsrc%5Etfw)
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了！(360ページ)<br><br>モヤモヤっとしてたオブジェクト指向の輪郭を綺麗に描き出して読ませてくれた間違いなく良書でした！<br><br>オブジェクト指向言語だけでなくプログラミング言語の変遷と進化という観点からも書かれていて分かりやすく読みやすかったです！<br><br>おすすめツイートしてくれた方に感謝✨ <a href="https://t.co/EbhciIGCeV">pic.twitter.com/EbhciIGCeV</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1007059158460317696?ref_src=twsrc%5Etfw">June 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 今回は「オブジェクト指向でなぜ作るのか」です。
 

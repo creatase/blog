@@ -14,17 +14,7 @@ keywords:
 
 久々の投稿です。今回は先日ふらっとやってみた「ズンドコキヨシ」のまとめをやります。なんだそれ？と思った方は↓のツイートの引用先までご参照ください。
 
-> おはよー＼＼\٩( 'ω' )و //／／
-> 
-> 今日もいい天気だ幸せ(\*´-`)
-> 
-> きしださん[@kis](https://twitter.com/kis?ref_src=twsrc%5Etfw) さん（毎日とてもえらい人で私から見て雲の上の人）が具体的な目標を投下されたのでやってみよー٩( 'ω' )و
-> 
-> あと今日もぼちぼちもろもろやるぞ(๑و•̀ω•́)و [https://t.co/GidDLrUJTq](https://t.co/GidDLrUJTq)
-> 
-> — ゆきた＠Webエンジニアお休み中💤 (@yukita\_jp) [June 2, 2018](https://twitter.com/yukita_jp/status/1003029812309471232?ref_src=twsrc%5Etfw)
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おはよー＼＼\\٩( &#39;ω&#39; )و //／／<br><br>今日もいい天気だ幸せ(*´-`)<br><br>きしださん<a href="https://twitter.com/kis?ref_src=twsrc%5Etfw">@kis</a> さん（毎日とてもえらい人で私から見て雲の上の人）が具体的な目標を投下されたのでやってみよー٩( &#39;ω&#39; )و<br><br>あと今日もぼちぼちもろもろやるぞ(๑و•̀ω•́)و <a href="https://t.co/GidDLrUJTq">https://t.co/GidDLrUJTq</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1003029812309471232?ref_src=twsrc%5Etfw">June 2, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ここで重要だと思うのは、JavaやPHPなどの言語を勉強しても言語はわかるけど肝心のプログラムがかけるようになってないという話。。確かに。と思わざるを得ないなぁ、と思って同時に課題的に出されてたお題をやってみたのがことの経緯です。
 

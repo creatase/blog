@@ -46,6 +46,7 @@ PHP技術者認定試験には初級・準上級・上級・ウィザードと�
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div></figure>
+
 ## 勉強方針
 
 勉強を始めたのは４月に入ってから。使用した問題集は以下で紹介している２冊。
