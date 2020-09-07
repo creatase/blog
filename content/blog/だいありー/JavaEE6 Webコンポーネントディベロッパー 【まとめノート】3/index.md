@@ -1,7 +1,7 @@
 ---
 title: JavaEE6 Webコンポーネントディベロッパー 【まとめノート】3
 date: 2018-05-08T18:18:05
-description: 試験まであと４日です。どこまでまとめられるかわかりませんが続けていきたいと思います。## Declar
+description: 試験まであと４日です。どこまでまとめられるかわかりませんが続けていきたいと思います。
 slug: javaee6_wcd_study_note_3
 category: Java
 tags: 

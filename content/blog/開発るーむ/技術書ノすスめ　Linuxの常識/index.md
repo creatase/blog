@@ -1,7 +1,7 @@
 ---
 title: 技術書ノすスめ　Linuxの常識
 date: 2018-09-03T09:52:31
-description: 勉強報告の一環としてこれまでに読んだ本をサクッと紹介していきます。> 読・了！ （200ページ）> め
+description: 勉強報告の一環としてこれまでに読んだ本をサクッと紹介していきます。
 slug: gijutusho_5
 category: 書籍
 tags: 

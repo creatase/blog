@@ -1,7 +1,7 @@
 ---
 title: JavaEE6 Webコンポーネントディベロッパー 【まとめノート】2
 date: 2018-05-07T19:20:52
-description: 前回に引き続きJavaEE5→6の差分ノートをまとめていきます。## File uploadファイルを
+description: 前回に引き続きJavaEE5→6の差分ノートをまとめていきます。
 slug: javaee6_wcd_study_note_2
 category: Java
 tags: 
