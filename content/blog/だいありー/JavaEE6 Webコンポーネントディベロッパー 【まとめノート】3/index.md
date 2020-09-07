@@ -20,10 +20,6 @@ keywords:
 
 こちらの記事が参考になる。→[Java EE 6: アプリケーション セキュリティの強化](https://www.infoq.com/jp/news/2010/07/javaee6-security)
 
-&nbsp;
-
-&nbsp;
-
 ## Annotations and Resource Injection
 
 ### @DeclareRoles
@@ -36,23 +32,17 @@ keywords:
 
 \<web-app\> \<security-role\> \<role-name\>Admin\</role-name\> \</security-role\> \</web-app\>
 
-&nbsp;
-
 ### @EJB
 
 デプロイメント記述子でのejb-refまたはejb-local-ref要素を宣言するのと等価。
 
 @EJB private ShoppingCart myCart;
 
-&nbsp;
-
 ### @EJBs
 
 単一のリソース上で複数の＠EJBを宣言する際に使用。
 
 @EJBs({@EJB(Calculator), @EJB(ShoppingCart)})
-
-&nbsp;
 
 ### @Resource
 
@@ -62,21 +52,15 @@ keywords:
 
 この例ではjavax.sql.DataSource型のcatalogDSを宣言。
 
-&nbsp;
-
 ### @PersistenceContext
 
 EntityManagerをインジェクトする。
 
 @PersistenceContext EntityManager em;
 
-&nbsp;
-
 ### @PersistenceContexts
 
 複数の@PersistenceContextの宣言時に使用。
-
-&nbsp;
 
 ### @PersistenceUnit
 
@@ -84,13 +68,9 @@ EntityManagerFactoryをインジェクトする。
 
 @PersistenceUnit EntityManagerFactory emf;
 
-&nbsp;
-
 ### @PersistenceUnits
 
 複数の@PersistenceUnitの宣言時に使用。
-
-&nbsp;
 
 ### @PostConstruct
 
@@ -98,23 +78,17 @@ EntityManagerFactoryをインジェクトする。
 
 @PostConstruct public void postConstruct() { ... }
 
-&nbsp;
-
 ### @PreDestroy
 
 インスタンスがコンテナにより削除処理中であることを知らせるためのコールバック通知としてメソッドで使用。戻り値はvoid。
 
 @PreDestroy public void cleanup() { // オープンなリソースのクリーンアップ ... }
 
-&nbsp;
-
 ### @Resources
 
 複数の@Resourceアノテーションのコンテナとして機能する。
 
 @Resources ({ @Resource(name=”myDB” type=javax.sql.DataSource), @Resource(name=”myMQ” type=javax.jms.ConnectionFactory) })
-
-&nbsp;
 
 ### @RunAs
 
@@ -124,21 +98,15 @@ EntityManagerFactoryをインジェクトする。
 
 \<servlet\> \<servlet-name\>CalculatorServlet\</servlet-name\> \<run-as\>Admin\</run-as\> \</servlet\>
 
-&nbsp;
-
 ### @WebServiceRef
 
 デプロイメント記述子の中のresource-ref要素と同じ。
 
 @WebServiceRef private MyService service;
 
-&nbsp;
-
 ### @WebServiceRefs
 
 複数の@WebServiceRefアノテーションを可能にする。
-
-&nbsp;
 
 ひとまず手がかりぐらいはまとめられたかと思います。読者の参考になれば幸いです。
 

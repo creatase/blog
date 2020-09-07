@@ -5,14 +5,13 @@ description: 前回からだいぶ時間が空いてしまいましたが、制�
 slug: portfolio_site_creation_3
 category: Diary
 tags: 
-keywords: 
----
+keywords: ---
 
 こんにちは、ゆきたです。
 
 前回からだいぶ時間が空いてしまいましたが、制作日記の続きをお届けしたいと思います。前回はこれから作るサイトのデザインをIllustratorとSketchを使ってデザインしてみました。
 
-→前回記事&nbsp;[ポートフォリオサイト制作日記 Vol.2 デザイン編](https://creatase.info/portfolio_site_creation_2/)
+→前回記事 [ポートフォリオサイト制作日記 Vol.2 デザイン編](https://creatase.info/portfolio_site_creation_2/)
 
 ３回目となる今回は、前回作ったデザインを元にHTMLとCSSを書いていきます。
 
@@ -20,7 +19,6 @@ keywords:
 
 今回はブラウザはとりあえずChromeを使っています。エディタはいつもはAtomを使っているのですが、今回は何を血迷ったかvimを使っています（これ覚えるのでだいぶ時間を使った）。環境はmacOSのなかにVirtualBox&VagrantでCentOSを入れてその中でphp付属のサーバー立ち上げてやりました（ええ、お気付きの通り、まんまドットインストールの開発環境構築です）。それ以外では、Sketchのコピー→CSSという機能を使ってみました。それからちなみに公開する環境はさくらのレンタルサーバーの予定です。
 
-&nbsp;
 
 ## 課題
 
@@ -33,8 +31,6 @@ keywords:
 
 上から順番に説明していきたいと思います。
 
-&nbsp;
-
 ## CSSアニメーション
 
 これはサイトtopの部分中央に据えたロゴマークをゆっくりくるくる回してみたかったんですね。
@@ -45,11 +41,24 @@ keywords:
 
 これは単純にCSSだけで実現できました。具体的には@keyframeでアニメーションの動きの部分を先に定義しておいて、後からそれをセレクタにあてるという手順です。
 
-@keyframes rotation { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+```
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+```
 
 rotationはこのアニメーションの名前で任意につけます（animation-name）。つけた名前をあとでセレクタにあてる時に使うのでわかりやすい名前をつけると良いと思います（今回は回転なのでrotation）。0%はfrom、100%はtoと書いてもOKです。また途中の状態を５０％などとして書き足すことも可能です。今回のアニメーションでは０％（最初の状態）、１００％（最後の状態）の二つでできました。で、これをその他諸々の条件とともに適用したいセレクタにあてます。
 
-セレクタ { animation: rotation 10s liner infinite; }
+```
+セレクタ {
+  animation: rotation 10s liner infinite;
+}
+```
 
 rotationはアニメーションの名前、10sは１回のアニメーションが終わるまでの時間（msでも指定可能、１０ms＝０．０１sとかにすると超高速回転になる 笑）、linerはアニメーション再生速度の変化を常に一定に指定（ease-in-outとかするとゆっくり始まりゆっくり終わるなどに変えられる）、infiniteはアニメーションを繰り返す回数をずっと繰り返すに指定。他にも色々と指定できる条件がありますが今回はこれで十分と判断しました。
 
@@ -57,19 +66,15 @@ rotationはアニメーションの名前、10sは１回のアニメーション
 
 興味のある方は「CSSアニメーション」で調べてみてくださいね。
 
-&nbsp;
-
 ## レスポンシブ
 
 実はここ今回で一番やらかしてます。レスポンシブデザインにする方法はとてもたくさんあると思います。CSS3で使えるようになったFlexboxを利用するとか、おなじみのbootstrapを利用するとかとか。…なのですが、今回綺麗さっぱりそのことを忘れていて、結局一つ一つ設定していきました。真似しないでくださいね。フレームワーク使ったほうが簡単ですし早いです。無理に苦行する必要はありません。
 
-→参考記事&nbsp;[日本語対応！CSS Flexboxのチートシートを作ったので配布します](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
+→参考記事 [日本語対応！CSS Flexboxのチートシートを作ったので配布します](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
 
-→ 参考記事&nbsp;[Webデザインの知識がなくてもOK！Bootstrapの使い方【入門者向け】](https://techacademy.jp/magazine/6270 "Permanent Link to Webデザインの知識がなくてもOK！Bootstrapの使い方【入門者向け】")
+→参考記事 [Webデザインの知識がなくてもOK！Bootstrapの使い方【入門者向け】](https://techacademy.jp/magazine/6270 "Permanent Link to Webデザインの知識がなくてもOK！Bootstrapの使い方【入門者向け】")
 
 ちなみにレスポンシブデザインの一番基本的なやり方は一つのHTMLに対して画面横幅に応じてCSS Media QueriesでCSSを切り替えます。そしてそれぞれのコンテンツや画像の幅の指定をpxでなく％で指定することで実現します。これはProgateやドットインストールで習得できます。
-
-&nbsp;
 
 ## カルーセル
 
@@ -85,8 +90,6 @@ rotationはアニメーションの名前、10sは１回のアニメーション
 
 それより早く中に突っ込む実績を作らなければ…。
 
-&nbsp;
-
 ## Sketchの使い勝手検証
 
 今回私はサイトのデザインをSketchでやってみたわけですが、それによってコーディングがどれくらい楽になるかを試してみました。
@@ -98,8 +101,6 @@ rotationはアニメーションの名前、10sは１回のアニメーション
 ![](https://creatase.info/wp-content/uploads/2018/05/Untitled3.gif)
 
 見たまんまですが、Sketchで作ったデザインを右クリックして「Copy CSS Attributes」でコピー → エディタに切り替えてペーストでポン！と諸々の設定がペーストできます。おぉ…便利。
-
-&nbsp;
 
 もう一つはpaddingやmarginを設定するときに、どれくらい空けたっけな？となったときにすぐに確認できる機能です。（これも実際にやってみた↓）
 

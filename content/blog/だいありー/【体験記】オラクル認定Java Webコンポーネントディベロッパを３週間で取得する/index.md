@@ -12,8 +12,6 @@ keywords:
 
 しばらく時間が空いてしまいましたが、ようやくWebコンポーネントの資格を取得できたので、その体験記をまとめておきます。まずはいつものように資格についての簡単な紹介から。
 
-&nbsp;
-
 ## 資格について
 
 ### Java EE6 Web Component Developer
@@ -22,15 +20,11 @@ Java EEを利用したWebサービスなどを開発するための知識が問�
 
 →[Java EE 6 Web Component Developer Certified Expert](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-899&p_org_id=70&lang=JA#exam-details)
 
-&nbsp;
-
 ## 背景
 
 Java SE8 Goldを無事に取得。詳細はこちらの記事をどうぞ。
 
 →[【体験記】オラクル認定Java SE8 Goldを３週間で取得する](https://creatase.info/oracle_java_se8_gold_exp/)
-
-&nbsp;
 
 ## 結果
 
@@ -39,8 +33,6 @@ Java SE8 Goldを無事に取得。詳細はこちらの記事をどうぞ。
 正解率75%で合格（合格ライン64%：なお試験結果には61％と表記されている）
 
 １度目の受験で合格。今回も割と厳しかった。
-
-&nbsp;
 
 ## 勉強方針
 
@@ -56,8 +48,6 @@ Java SE8 Goldを無事に取得。詳細はこちらの記事をどうぞ。
 
 受験を考えている方は、そこそこ時間の確保を意識することをお勧めします。
 
-&nbsp;
-
 ## 読んだ書籍
 
 JavaEE6については試験対策本が現状ありません。なので以下の２冊で対応しました。
@@ -66,13 +56,9 @@ JavaEE6については試験対策本が現状ありません。なので以下�
 
 [パーフェクト Java EE](https://www.amazon.co.jp/gp/product/4774183164/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774183164&linkCode=as2&tag=yukita2a01-22&linkId=246ae8570adc2db97e62d4dfaa20a923) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4774183164)
 
-&nbsp;
-
 [![](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4798121606&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yukita2a01-22)](https://www.amazon.co.jp/gp/product/4798121606/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4798121606&linkCode=as2&tag=yukita2a01-22&linkId=9f772334f51d27fe28c6f09712879534) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4798121606)
 
 [SUN教科書 Webコンポーネントディベロッパ(SJC-WC)(試験番号:310-083)](https://www.amazon.co.jp/gp/product/4798121606/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4798121606&linkCode=as2&tag=yukita2a01-22&linkId=7762bb61abcadbbee4d184272dc0f0ba) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4798121606)
-
-&nbsp;
 
 ## 受験本番
 
@@ -82,15 +68,11 @@ JavaEE6については試験対策本が現状ありません。なので以下�
 
 私の場合は全部見直しも含めて１１０分ぐらいで退出しました。時間は十分あると思うので、急いで問題を読む必要もそこまでないと思います。
 
-&nbsp;
-
 ## 思ったこと
 
 JavaEE５の範囲は完璧にしておき、JavaEE６での新機能をある程度まとめておくことで資格取得が見えてきます。JavaEEは数あるフレームワークの一つなので、将来的にこれにこだわる必要はないと思いますが、基本的な仕組みや流れを理解するにはちょうどいい内容ではないかと思いました。ここからさらにJSFやSpringなどに繋げていけたらいいのかなと思います。
 
 今回私はEclipseを使って学習しましたが、それで特に問題はなかったと感じます。もちろん他のIDEでも問題ないと思うので好みのものを使うと良いでしょう。
-
-&nbsp;
 
 ## まとめ
 
@@ -99,8 +81,6 @@ JavaEE５の範囲は完璧にしておき、JavaEE６での新機能をある�
 - JavaEE6の内容をどうまとめて理解するかがポイント
 - 試験時間は十分あるので焦らない
 - 受験料割引などのキャンペーンを利用すると良い。
-
-&nbsp;
 
 ちょっと時間かかったけど、JavaEE取れてよかった。これから取得を考えている方の参考になれば幸いです！最後まで読んでいただきありがとうございました。
 

@@ -18,15 +18,13 @@ keywords:
 
 - macOS 10.13.4
 - ターミナル
-- [Atom](https://atom.io/)&nbsp;/ Eclipse
+- [Atom](https://atom.io/) / Eclipse
 
 ターミナルはmacに標準で付いていますね。Atomは無料のエディタで[ドットインストール](https://dotinstall.com/)で紹介されていたのがきっかけで私は使っています。書きやすい。もちろん他のエディタでも構いません。Eclipseをインストールしている人はそちらの方が書き間違いや書き忘れが少ないかもしれない。
 
- ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-19-15.51.26-1-1024x600.png)
+![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-19-15.51.26-1-1024x600.png)
 
 作業画面はこんな感じ（左がAtomで右がターミナル）
-
-&nbsp;
 
 ## 下準備
 
@@ -38,8 +36,6 @@ $ javac -version
 
 javac 1.6.0\_65
 
-&nbsp;
-
 続いて実行環境のバージョンを確認。
 
 $ java -version
@@ -47,8 +43,6 @@ $ java -version
 下のようにバージョンの情報が表示されれば大丈夫。
 
 java version "1.6.0\_65" Java(TM) SE Runtime Environment (build 1.6.0\_65-b14-468) Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-468, mixed mode)
-
-&nbsp;
 
 次に、コードを書くjavaファイルを作ります。今回はホームディレクトリの下に「myGames」というフォルダを作って、その中にMiniGame.javaを作成して、このファイルにコードを書いて保存していきます。
 
@@ -58,13 +52,11 @@ $ cd ~ $ mkdir myGames $ cd !$ $ touch MiniGame.java
 
 早速、Atomで「MiniGame.java」を開いてみます。
 
- ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-19-17.02.43.png)
+![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-19-17.02.43.png)
 
 こんな風に表示されます。（初めて使う人は背景が白いかもしれませんが問題ないです）
 
 空っぽ。touchコマンドでは中身が空のファイルが作られます。
-
-&nbsp;
 
 それでは、今回作るゲームのお題を確認してみましょう。
 
@@ -76,15 +68,9 @@ $ cd ~ $ mkdir myGames $ cd !$ $ touch MiniGame.java
 6. ゆきたの受けたダメージ数と、残りのHP数を出力する
 7. どちらかが死ぬまで、攻撃をループさせる
 
-&nbsp;
-
 おぉ…多い。
 
-&nbsp;
-
 次回から一つ一つお題をコードにしてみたいと思います。
-
-&nbsp;
 
 - Javaでドラクエっぽい対戦ゲームを作ってみる【準備編】←いまココ
 - [Javaでドラクエっぽい対戦ゲームを作ってみる【お題１+寄り道編】](https://creatase.info/java_nimigame_2/)

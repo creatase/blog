@@ -12,8 +12,6 @@ keywords:
 
 今回は今月取得したJava SE8 Goldの体験記を書いていきます。Goldって学習コストどんなもんなの？とか難易度はどれくらい？と思う方の参考になれば幸いです。
 
-&nbsp;
-
 ## 資格について
 
 ### Java SE8 Gold
@@ -22,15 +20,11 @@ keywords:
 
 →[Oracle Certified Java Programmer, Gold SE 8](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-809)
 
-&nbsp;
-
 ## 背景
 
 Java SE8 Silverを無事取得。詳細は前回記事をどうぞ。
 
 →[【体験記】オラクル認定Java SE8 Silverを２週間で取得する](https://creatase.info/oracle_java_se8_silver_exp/)
-
-&nbsp;
 
 ## 結果
 
@@ -52,8 +46,6 @@ Java SE8 Silverを無事取得。詳細は前回記事をどうぞ。
 
 受験を考えられている方はぜひ計画的な時間の確保をしてください。
 
-&nbsp;
-
 ## 読んだ書籍
 
 Goldはとにかく難しいと聞いていたので参考書の紫本と問題集の黒本を両方やりました。
@@ -61,8 +53,6 @@ Goldはとにかく難しいと聞いていたので参考書の紫本と問題�
 [![](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=479814682X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yukita2a01-22)](https://www.amazon.co.jp/gp/product/479814682X/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=479814682X&linkCode=as2&tag=yukita2a01-22&linkId=a0ae68afdb333bf0c838aa7b996fcce6)
 
 [オラクル認定資格教科書 Javaプログラマ Gold SE 8 (EXAMPRESS)](https://www.amazon.co.jp/gp/product/479814682X/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=479814682X&linkCode=as2&tag=yukita2a01-22&linkId=986d8d209fd15ffd175591917a8e2f99) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=479814682X)
-
-&nbsp;
 
 [![](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4295000035&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yukita2a01-22)](https://www.amazon.co.jp/gp/product/4295000035/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4295000035&linkCode=as2&tag=yukita2a01-22&linkId=b620334946bd6faa5ebffca35da58281) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4295000035)
 
@@ -76,15 +66,11 @@ Goldはとにかく難しいと聞いていたので参考書の紫本と問題�
 
 私の場合は見直す余裕はほとんどありませんでした。それなりにコードを読みなれる必要もあると感じました。
 
-&nbsp;
-
 ## 思ったこと
 
 参考書と問題集をしっかりやることで資格取得が見えてきます。Goldを勉強していてようやくプログラミングは調べながらやるもんだという実感が湧いてきました。実際、参考書のコードを書きながら脱線して全然違うメソッドの動作を確認してたこともあります。それが回り回って理解につながるとも感じました。
 
 もう一つはデータベースの操作や入出力の処理も含まれているので、単にプログラムを書くだけでは終わらなくなりました。そのあたりの操作も理解して覚えていくとどうしても時間がかかると思います。
-
-&nbsp;
 
 ## まとめ
 
@@ -94,7 +80,5 @@ Goldはとにかく難しいと聞いていたので参考書の紫本と問題�
 - 個人的にはラムダ式・メソッド参照・ストリームAPIあたりが強敵（慣れれば便利）
 - 受験料割引などのキャンペーンを利用すると良い。
 
-&nbsp;
-
-Goldは本当に難しかったですが取れてよかった。これから取ろうと考えている方の健闘を祈ります！最後まで読んでいただき、ありがとうございました。
+ Goldは本当に難しかったですが取れてよかった。これから取ろうと考えている方の健闘を祈ります！最後まで読んでいただき、ありがとうございました。
 

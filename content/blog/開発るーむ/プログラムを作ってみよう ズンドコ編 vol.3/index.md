@@ -10,8 +10,6 @@ keywords:
 
 こんにちは、ゆきたです。
 
-&nbsp;
-
 気がつけばこの「ズンドコ」プログラムも３回目。今回は多分これが本命の２つ目のプログラムを書いていってみたいと思います。（なお前回同様書き方など至らぬ点は何卒ご容赦くださいませm(\_ \_)m　優しくご指導いただければ幸いです。。）
 
 ## プログラムその２の内容
@@ -25,31 +23,22 @@ keywords:
 
 さぁ前回同様に一つずつ消化していきたいと思います。が、先に言っておくと２つ目の、直近５回分の「ズン」「ドコ」の文字列をどうやって保持・更新しようかというところがポイントでした。これについては配列を使うとか方法は色々あるのだろうと思いますが、今回私はコレクションを使うことにしました。理由はそのほうがメモリ食わないかなぁと思ったからです。では本編をどうぞ〜。
 
-&nbsp;
-
 ## 「ズン」「ドコ」をランダム表示
 
 これはプログラムその１で使ったコードを流用できそうなので、使えるところはそのまま使います。詳細は前回記事をご覧ください。→[プログラムを作ってみよう ズンドコ編 vol.2](https://creatase.info/lets_make_a_program_zundoko-vol-2)
 
-String[] words = {"ズン", "ドコ"}; Random r = new Random(); word = words[r.nextInt(2)]; System.out.print(word); 
-
+String[] words = {"ズン", "ドコ"}; Random r = new Random(); word = words[r.nextInt(2)]; System.out.print(word);
 printメソッドにwrods[r.nextInt(2)]を直接渡していないのは、このタイミングで選ばれた「ズン」か「ドコ」を次の工程でもう一度使うためです。
-
-&nbsp;
 
 ## 直近５回の「ズン」「ドコ」履歴を保持・更新する
 
 上の処理をループさせれば「ズン」か「ドコ」がランダムに表示され続けます。まず、上の処理で表示した文字を５回分ストックすることを考えます。ストックする入れ物として具体的にはLinkedListを使いました。LinkedListは配列と違い格納できる要素数が可変で、要素を自由に挿入したり削除したりできます。Listの仲間にはArrayListもありますが、今回は要素の挿入・削除がメインになるのでその処理がArrayListより早いLinkedListを使っています。このLinkedListのインスタンスを作り、上の処理で表示した「ズン」「ドコ」をadd()メソッドで表示した順に挿入していきます。
 
-List\<String\> list = new LinkedList\<\>(); list.add(word); 
-
+List\<String\> list = new LinkedList\<\>(); list.add(word);
 で、「ズン」か「ドコ」を挿入した結果、listの要素数が５より大きくなった場合、remove(0)メソッドで、listに挿入されたタイミングがもっとも古い（０番目の）要素を削除します。
 
-if(list.size() \> 5) { list.remove(0);} 
-
+if(list.size() \> 5) { list.remove(0);}
 これでlistの中には「ズン」「ドコ」が表示された順に直近５回分が格納されていることになります。
-
-&nbsp;
 
 ## listを文字列へ変換して”きよし！！！”判定
 
@@ -67,13 +56,11 @@ String correctStr = "ズンズンズンズンドコ"; if(str.equals(correctStr))
 
 これで表示された直近５回分の文字列が”ズンズンズンズンドコ”の場合”きよし！！！”と表示されるようになりました。この処理は「ズン」か「ドコ」が１回表示されるたびに実行されるようにループの中に入れます。
 
-&nbsp;
-
 ## きよし表示でループを抜ける
 
 さて、ここまで出来ればあとはループ処理を書いておしまいです。どの部分をループさせるかを考えます。今回も前回同様while文の条件式にtrueを入れて無限ループにし、”きよし！！！”が表示された直後にbreak文でループを抜けるようにしました。以下全文です。（適当に改行入れてます。。
 
-import java.util.LinkedList;import java.util.List;import java.util.Random;import java.util.stream.Collectors;public class Zundoko2 { public static void main(String[] args) { System.out.print("\n\n\n\n"); // \nは改行&nbsp; &nbsp; &nbsp; &nbsp; String correctStr = "ズンズンズンズンドコ";&nbsp; &nbsp; &nbsp; &nbsp; String[] words = {"ズン", "ドコ"};&nbsp; &nbsp; &nbsp; &nbsp; List\<String\> list = new LinkedList\<\>();&nbsp; &nbsp; &nbsp; &nbsp; Random r = new Random();&nbsp; &nbsp; &nbsp; &nbsp; String str = "";&nbsp; &nbsp; &nbsp; &nbsp; String word = "";&nbsp; &nbsp; &nbsp; &nbsp; while(true) {&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; word = words[r.nextInt(2)];&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(word);&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; list.add(word);&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(list.size() \> 5) { &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; list.remove(0);&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; str = list.stream().collect(Collectors.joining());&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(str.equals(correctStr)){ &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println("\n\nきよし！！！\n\n\n\n");&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }&nbsp; &nbsp; &nbsp; &nbsp; } }}
+import java.util.LinkedList;import java.util.List;import java.util.Random;import java.util.stream.Collectors;public class Zundoko2 { public static void main(String[] args) { System.out.print("\n\n\n\n"); // \nは改行        String correctStr = "ズンズンズンズンドコ";        String[] words = {"ズン", "ドコ"};        List\<String\> list = new LinkedList\<\>();        Random r = new Random();        String str = "";        String word = "";        while(true) {            word = words[r.nextInt(2)];            System.out.print(word);            list.add(word);            if(list.size() \> 5) {             list.remove(0);            }            str = list.stream().collect(Collectors.joining());            if(str.equals(correctStr)){                System.out.println("\n\nきよし！！！\n\n\n\n");                break;            }        } }}
 
 実行したものがこちら。（５回実行）
 
@@ -84,8 +71,6 @@ import java.util.LinkedList;import java.util.List;import java.util.Random;import
 一応これでお題はクリアしてるんじゃないかと勝手に思っています。そして今回は運よくできたので記事にしました。お題が全然違う内容だったらそもそもやってなかったかもしれません。
 
 でもやってみてよかったと思います。というか本来プログラミングは今回のようにお題があってそれをどう実現するかを考えて行くものなんだなというのが実感できました。皆さんはいかがだったでしょうか？
-
-&nbsp;
 
 ## 気をつけたこと
 

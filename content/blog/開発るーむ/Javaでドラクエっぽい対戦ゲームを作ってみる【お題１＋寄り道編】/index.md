@@ -14,11 +14,7 @@ keywords:
 
 参考：まゆさんの記事はコチラ→[【体験談】神里よしとさんのレッスンで、 Ruby完全初心者が対戦ゲームを作ってみた](https://www.mayuowl.com/ruby-first/)
 
-&nbsp;
-
-## &nbsp;お題１　ゆきた、スライムのHPを宣言
-
-&nbsp;
+##  お題１　ゆきた、スライムのHPを宣言
 
 ### クラスを宣言する
 
@@ -36,16 +32,11 @@ Javaでは、実行するファイル名とその中でmainメソッドを持つ
 
 ボコンと自動で書いてくれます。便利機能はどんどん使います。
 
-&nbsp;
-
 ### HPを宣言して表示してみる
 
 次に、ゆきたとスライムそれぞれのHPを宣言して、表示させてみます。とりあえず何も考えずstatic intとしてそれぞれ宣言します。宣言したHPの変数を使って、mainメソッド内にHPを表示させるコードを書きます。（ちなみにplと入力→returnでSystem.out.println{}が自動補完されて書かれます。便利機能はどんどん使います）
 
-public class MiniGame { static int yukitaHp = 100; static int slimeHp = 100; public static void main(String[] args) { System.out.println("--ゆきたHP：" + yukitaHp + " --"); System.out.println("--スライムHP：" + slimeHp + " --"); } } 
-
-&nbsp;
-
+public class MiniGame { static int yukitaHp = 100; static int slimeHp = 100; public static void main(String[] args) { System.out.println("--ゆきたHP：" + yukitaHp + " --"); System.out.println("--スライムHP：" + slimeHp + " --"); } }
 ここで一度コンパイルして実行してみます。
 
 Javaでは今書いているようなソースコードをコンパイルして一旦バイトコードに変換します。そして変換後のバイトコードを実行環境で実行して、プログラムを動かすという手順を踏みます。コンパイルでは平たく言えばプログラムの書き方が合っているかどうかがチェックされます。なので、ルール通りに書けていないとコンパイルエラーとなってエラー内容が表示されます。何事もなくコンパイルが通れば何も表示されません。
@@ -114,11 +105,7 @@ $ java MiniGame
 
 今度はうまく表示されましたね。
 
-&nbsp;
-
 次回はお題２以降をやってみます。（お題１しかできなかった…）
-
-&nbsp;
 
 - [Javaでドラクエっぽい対戦ゲームを作ってみる【準備編】](https://creatase.info/java_minigame_1/)
 - Javaでドラクエっぽい対戦ゲームを作ってみる【お題１+寄り道編】←いまココ

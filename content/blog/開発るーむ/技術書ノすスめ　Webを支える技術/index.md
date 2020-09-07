@@ -10,30 +10,22 @@ keywords:
 
 こんにちは、ゆきたです。
 
-&nbsp;
-
 勉強報告の一環と称して、これまでに読んだ本をサックリと紹介しています。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了٩( &#39;ω&#39; )و！(310ページ)<br><br>個人的にはRESTを割と詳細に理解できたのが良かった。それ以外にもHTTPメソッドやステータスコードなど幅広く網羅されていて辞書的な使い方もできそう！<br><br>これでりょうさん<a href="https://twitter.com/neer_chan?ref_src=twsrc%5Etfw">@neer_chan</a> さんがオススメしている４冊は全部読んだ。知識を頭の片隅にってのも今なら分かる <a href="https://t.co/dn7CdiVbhE">pic.twitter.com/dn7CdiVbhE</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1008999544061812736?ref_src=twsrc%5Etfw">June 19, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 今回は「Webを支える技術」です。
 
-&nbsp;
-
 ## 対象
 
 この本を読むべき人はかなり広範だと思います。極端な言い方をすればWebに関わる全ての人が読者対象という感じではないでしょうか。
 HTTP、URI、HTML、そしてRESTと表紙にある通りこれらの内容について詳しく書かれています。私はこの本でRESTについての理解が深まりました。RESTってなんとなくよく聞くけど…みたいな方にもおすすめできる本だと思います。
-
-&nbsp;
 
 ## よかったところ
 
 この本も歴史から始まります。私は過去からの経緯や変遷などを知識として理解するのがどうやら好きなようなので、こう言った内容があるのはよかったです。
 私の場合先にマスタリングTCP／IPを読んでいたので、多少内容のかぶるところもあり、読み進めやすかったです。
 それから上でも書きましたが、それまでなんとなくのイメージで把握していたRESTについてこの本でかなり理解を深められたのはよかったと思います。
-
-&nbsp;
 
 ## まとめ
 

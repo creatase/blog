@@ -14,8 +14,6 @@ keywords:
 
 参考：まゆさんの記事はコチラ→[【体験談】神里よしとさんのレッスンで、 Ruby完全初心者が対戦ゲームを作ってみた](https://www.mayuowl.com/ruby-first/)
 
-&nbsp;
-
 ## 前回の忘れ物
 
 さて、お題３に入る前に前回の忘れ物を片付けておきたいと思います。前回はプレーヤーからのコマンドを受け取るところまでをやりましたが、肝心の受け取ったコマンドに合わせた内容を設定していませんでした。
@@ -30,28 +28,19 @@ switch (choice) { case 1: System.out.println("\nゆきたはたたかうこと�
 
 これで入力した内容に合わせてストーリー（処理）を分岐させることができました。
 
-&nbsp;
-
 ## お題３ まずゆきたが攻撃。４回に１回会心の一撃を繰り出せる。
 
 それでは気を取り直してお題３です。プレーヤーの攻撃は、攻撃したことを表示 ＋ スライムのHPを減算処理 + スライムへのダメージの表示の順で書いていきます。「たたかうことをえらんだ」の下に以下のコードを書きます。
 
 System.out.println("\nゆきたのこうげき！！"); slimeHp -= 10; System.out.println("\nスライムに10のダメージを与えた！");
 
-&nbsp;
-
 会心の一撃は減算量を増加させることで表現します。「４回に１回」を実現するやり方はいくつかありますが、今回はRandomクラスのnextInt()メソッドを利用してみます。nextInt()メソッドは引数にint（整数）をとり、０から（整数−１）までの整数をランダムに返すインスタンスメソッドです。nextInt()メソッドで0,1,2,3をランダムに生成し、生成した整数が１の時に会心の一撃を繰り出す条件分岐をif-else文で書いてみます。
-
-&nbsp;
 
 Random random = new Random(); int critical = random.nextInt(4); System.out.println("\nゆきたのこうげき！！"); if (critical == 1) { System.out.println("\nゆきたは会心の一撃をはなった！！"); slimeHp -= 30; System.out.println("\nスライムに30のダメージを与えた！"); } else { slimeHp -= 10; System.out.println("\nスライムに10のダメージを与えた！"); }
 
 ついでに会心の一撃をはなったことも表示させてみます。なおRandomクラスはjava.utilパッケージで提供されていますので、import文を忘れずに書いておきます。
 
-import java.io.\*; import java.util.Random; 
-
-&nbsp;
-
+import java.io.\*; import java.util.Random;
 実行結果は、
 
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-15.39.24.png)
@@ -59,8 +48,6 @@ import java.io.\*; import java.util.Random;
 無事４回に１回くらいの割合で会心の一撃を放つようになりました。
 
 今回はもう一つお題いってみようと思います！
-
-&nbsp;
 
 ## お題４ 攻撃を受けたスライムの様子を出力する
 
@@ -72,29 +59,21 @@ String status = "スライムは"; status += slimeHp \>= 80 ? "不気味に笑�
 
 試しにプレーヤの会心の一撃のダメージを130にして何度か実行してみます。
 
- ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.16.11.png)
+![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.16.11.png)
 
 通常の攻撃の場合
-
-&nbsp;
-
- ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.16.43.png)
+![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.16.43.png)
 
 会心の一撃の場合
 
 スライムの残り体力によって表示される状態を変えることができました。最後にスライムを倒した後の表示も足しておきましょう。
 
-if (slimeHp \<= 0) { System.out.println("\nゆきたはスライムをやっつけた！"); System.out.println("ゆきたは16の経験値を手に入れた！"); System.out.println("ゆきたは26ゴールド手に入れた！"); } 
-
+if (slimeHp \<= 0) { System.out.println("\nゆきたはスライムをやっつけた！"); System.out.println("ゆきたは16の経験値を手に入れた！"); System.out.println("ゆきたは26ゴールド手に入れた！"); }
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.39.10.png)
 
 だいぶそれらしくなってきましたね。
 
-&nbsp;
-
 次回はお題５以降を書いていきたいと思います。（半分過ぎた…）
-
-&nbsp;
 
 - [Javaでドラクエっぽい対戦ゲームを作ってみる【準備編】](https://creatase.info/java_minigame_1/)
 - [Javaでドラクエっぽい対戦ゲームを作ってみる【お題１+寄り道編】](https://creatase.info/java_nimigame_2/)

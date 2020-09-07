@@ -10,11 +10,7 @@ keywords:
 
 こんにちは、ゆきたです。
 
-&nbsp;
-
 さて今回から具体的に「ズンドコ」プログラム（ネーミングセンス…orz）を書いてみたいと思います。ちなみに私はJavaでやってますが、他の言語でもぜひやってみてくださいねー。そしてこの記事に書いているのはあくまでも一例です。これよりスマートな書き方はたっくさんあると思うのでいろんなアプローチを考えてみるのもいいですね。では本編をどうぞ〜。
-
-&nbsp;
 
 ## プログラムその１の内容
 
@@ -42,19 +38,15 @@ public int nextInt(int bound)
 
 このメソッドでは０から引数のbound – 1の整数をランダムに返します。なのでnextInt( 2 )とすれば０か１がランダムで返されます。また、見ての通りインスタンスメソッドなのでインスタンスを作って使用します。
 
-Random r = new Random(); r.nextInt(2); //ランダムで0か1 
-
+Random r = new Random(); r.nextInt(2); //ランダムで0か1
 これを先ほどの配列arrayの添字（インデックス）に突っ込みます。
 
-array[r.nextInt(2)]; //ランダムでズンかドコ 
-
+array[r.nextInt(2)]; //ランダムでズンかドコ
 あとはこれをループで５回繰り返せば良さそうです。今回はfor文を使ってみます。
 
 for(int i = 0; i \< 5; i++) { System.out.print(array[r.nextInt(2)]); }
 
 他にもif文を使ったりswitch文を使ったり色々やり方があると思いますが、「ズン」か「ドコ」が５回表示されてれば問題ないと思います。とりあえずこれはこれで終わりにして次行きます。
-
-&nbsp;
 
 ## 正解の”ズンズンズンズンドコ”と比較
 
@@ -64,8 +56,7 @@ for(int i = 0; i \< 5; i++) { System.out.print(array[r.nextInt(2)]); }
 
 もちろんStringで変数を宣言して += 演算子で「ズン」「ドコ」を足していっても問題ないと思います。
 
-StringBuilder sb = new StringBuilder(); for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); } 
-
+StringBuilder sb = new StringBuilder(); for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); }
 これで「ズン」「ドコ」を５回ランダムに繋げたので、toString()メソッドで文字列に変換して表示します。
 
 String str = sb.toString(); System.out.println(str);
@@ -79,10 +70,6 @@ String correctStr = "ズンズンズンズンドコ"; if(str.equals(correctStr))
 次の過程のために一応ここまでをまとめておきます。
 
 import java.util.Random; public class Zundoko1 { public static void main(String[] args) { String correctStr = "ズンズンズンズンドコ"; String[] array = {"ズン", "ドコ"}; Random r = new Random(); StringBuilder sb = new StringBuilder(); for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); } String str = sb.toString(); System.out.println(str); if(str.equals(correctStr)){ System.out.println("きよし！！！"); } } }
-
-&nbsp;
-
-&nbsp;
 
 ## きよし！！！が出るまでループ
 
@@ -98,21 +85,15 @@ while(true){ for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); } Str
 
 import java.util.Random; public class Zundoko1 { public static void main(String[] args) { String correctStr = "ズンズンズンズンドコ"; String[] array = {"ズン", "ドコ"}; Random r = new Random(); StringBuilder sb; while(true){ sb = new StringBuilder(); for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); } String str = sb.toString(); System.out.println(str); if(str.equals(correctStr)){ System.out.println(); System.out.println("きよし！！！"); break; } } } }
 
-&nbsp;
-
 実行するとこうなります。（５回実行）
 
 ![](https://creatase.info/wp-content/uploads/2018/06/ズンズンズンズンドコ1-1.gif)
 
 ちゃんと”きよし！！！”でループを抜けているようなのでこれでこのプログラムはよしとします。
 
-&nbsp;
-
 さて、ここまでやってみて、「そうじゃないのよ」と感じましたよね。。。そうなんですよね、本来のお題はこういうことじゃないんですよね。。。
 
 というわけで次回もう一つのプログラムを書いていきたいと思います。
-
-&nbsp;
 
 ではでは〜また次回
 

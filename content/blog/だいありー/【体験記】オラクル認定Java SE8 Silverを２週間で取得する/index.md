@@ -12,27 +12,19 @@ keywords:
 
 今回は先月取得したJava SE8 Silverの体験記をまとめたいと思います。まだこの資格について知らない方や、これから勉強しようとしている方の参考に少しでもなれば幸いです。最初に簡単に資格についておさらいしておきます。
 
-&nbsp;
-
 ## 資格について
 
 ### Java SE7/8 Bronze
 
 プログラミング言語を初めて学ぶ人が理解すべき基礎知識が問われる入門資格です。受験前提条件はなく誰でも受験可能。
 
-→[Oracle Certified Java Programmer, Bronze SE 7/8&nbsp;](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-814)
-
-&nbsp;
+→[Oracle Certified Java Programmer, Bronze SE 7/8](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-814)
 
 ### Java SE8 Silver
 
 Javaプログラミングの仕様を細部まで理解していることを問われる中級資格。実務経験１年以上の初級Javaプログラマーを対象としている資格です。試験範囲はBronzeと多く重複していますが、出題内容がずっと深い。なお受験資格はBronze同様特になく、いきなりSilverから受験することも可能です。
 
-→[Oracle Certified Java Programmer, Silver SE 8&nbsp;](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808)
-
-&nbsp;
-
-&nbsp;
+→[Oracle Certified Java Programmer, Silver SE 8](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808)
 
 ## 背景
 
@@ -50,8 +42,6 @@ ProgateではRubyばっかりやってたので、Javaはちょっとやった�
 
 で、やはり資格の勉強を通して知識を集めるのが手っ取り早いと考えたので、資格を取ることにしました。Bronzeから取ってもよかったんですが、受験料がバカにならないのと、目的が目的なので、Bronzeは参考書だけ買って理解、そのあといきなりSilverから受験することにしました。
 
-&nbsp;
-
 ## 結果
 
 18年3月24日受験
@@ -59,8 +49,6 @@ ProgateではRubyばっかりやってたので、Javaはちょっとやった�
 正解率84％で合格（合格ラインは65％）
 
 １度目の受験で合格。結果がすぐ出るのでドキドキでした。
-
-&nbsp;
 
 ## 勉強方針
 
@@ -74,8 +62,6 @@ ProgateではRubyばっかりやってたので、Javaはちょっとやった�
 
 仕事をしながら取得を目指す場合は１日１時間程度勉強するとして、約３ヶ月あれば良さそうです。
 
-&nbsp;
-
 ## 読んだ書籍
 
 Bronzeの参考書はいわゆる紫本にしました。問題数は少ないですが説明がしっかりしてあるので、よかったと思います。
@@ -84,15 +70,11 @@ Bronzeの参考書はいわゆる紫本にしました。問題数は少ない�
 
 [オラクル認定資格教科書 Javaプログラマ Bronze SE 7/8](https://www.amazon.co.jp/gp/product/4798142719/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4798142719&linkCode=as2&tag=yukita2a01-22&linkId=7ae7b3a3b767cc4f8aedb00e6180d8b9) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4798142719)
 
-&nbsp;
-
 Sliverは参考書は買わず問題集として有名ないわゆる黒本を選びました。SilverはBronzeと範囲がかなり重複しているという前情報もあり、選んだこの本。実際やってみてこれで十分事足りたと思います。
 
 [![](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4844339931&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yukita2a01-22)](https://www.amazon.co.jp/gp/product/4844339931/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4844339931&linkCode=as2&tag=yukita2a01-22&linkId=2ae2a44804b290725a19fa80ddeb2f23) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4844339931)
 
 [徹底攻略 Java SE 8 Silver 問題集[1Z0-808]対応](https://www.amazon.co.jp/gp/product/4844339931/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4844339931&linkCode=as2&tag=yukita2a01-22&linkId=7d1fa5b6788e063a69ee22a2328aeea8) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4844339931)
-
-&nbsp;
 
 ## 受験本番
 
@@ -102,13 +84,9 @@ Sliverは参考書は買わず問題集として有名ないわゆる黒本を�
 
 実際には回答して、一度全て見直せるぐらいの時間がありました。
 
-&nbsp;
-
 ## 思ったこと
 
 試験を受ける前は、いきなりSilver取れるかな？と少し不安もありましたが。すんなり取れてよかったです。なお、今回は一度の申し込みで最大２回まで受験できるというキャンペーン中に申し込んだので、「一回落ちても、もう一回受ければいいや」ぐらいの気持ちで受けてきました。他にもタイミングによっては割引キャンペーンをやっていることもあるようなので、それを待ってみるのも良いかもしれません。受験料はかなり高いので。。
-
-&nbsp;
 
 ## まとめ
 
@@ -117,11 +95,4 @@ Sliverは参考書は買わず問題集として有名ないわゆる黒本を�
 - 「一度の申し込みで２回受験可能」や「割引」キャンペーンもあるので利用すると良い。
 - コードを写すだけでなく、自分であれこれ書き換えて色々試すとより理解が深まる。
 
-&nbsp;
-
 受験を予定されている方の健闘を祈ります！最後まで読んでいただき、ありがとうございました。
-
-&nbsp;
-
-&nbsp;
-
