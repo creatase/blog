@@ -126,12 +126,12 @@ SNS上である日ふと目にしたプログラムのお題的なものが面�
 
 この時点で私はJavaEE7のテキストをやり終えていたので、JSFを使ってやってみようと思い仕様書通りに４日ほどかけて作りました。下はできたときのツイートです。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">できた(｡ŏ_ŏ)<br>一応機能的には仕様通りです(๑و•̀ω•́)و<br>見た目は仕様にはありませんでした笑<br>これからもう少しだけ機能を追加して、あとほどほどに見た目を整えたいと思います(*´-`)<br>やっぱり作りながらだと必要に応じて調べながらやるから理解も違ってくるなー <a href="https://t.co/BaZSJNT0rm">pic.twitter.com/BaZSJNT0rm</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1021346077083983872?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">できた(｡ŏ_ŏ)<br>一応機能的には仕様通りです(๑و•̀ω•́)و<br>見た目は仕様にはありませんでした笑<br>これからもう少しだけ機能を追加して、あとほどほどに見た目を整えたいと思います(*´-`)<br>やっぱり作りながらだと必要に応じて調べながらやるから理解も違ってくるなー <a href="https://t.co/BaZSJNT0rm">pic.twitter.com/BaZSJNT0rm</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1021346077083983872?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote>
 
 
 上のツイート通り、このあとさらに４日ほど使って機能を追加しています。JSFだとAjaxも簡単にできたのでAjax対応にするなどしています。出来上がった後のツイートがこちら。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">できた(｡ŏ_ŏ)<br>一応機能的には仕様通りです(๑و•̀ω•́)و<br>見た目は仕様にはありませんでした笑<br>これからもう少しだけ機能を追加して、あとほどほどに見た目を整えたいと思います(*´-`)<br>やっぱり作りながらだと必要に応じて調べながらやるから理解も違ってくるなー <a href="https://t.co/BaZSJNT0rm">pic.twitter.com/BaZSJNT0rm</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1021346077083983872?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">できた(｡ŏ_ŏ)<br>一応機能的には仕様通りです(๑و•̀ω•́)و<br>見た目は仕様にはありませんでした笑<br>これからもう少しだけ機能を追加して、あとほどほどに見た目を整えたいと思います(*´-`)<br>やっぱり作りながらだと必要に応じて調べながらやるから理解も違ってくるなー <a href="https://t.co/BaZSJNT0rm">pic.twitter.com/BaZSJNT0rm</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1021346077083983872?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote>
 
 このコードはGitHubに置いてあります。→[https://github.com/creatase/TodoAppy](https://github.com/creatase/TodoApp)
 ちなみに使っているIDEはNetBeansで、DB連携しています。

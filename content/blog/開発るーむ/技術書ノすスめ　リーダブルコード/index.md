@@ -12,7 +12,7 @@ keywords:
 
 勉強報告の一環と称して私が過去に読んだ本を紹介しています。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了！(231ページ)<br><br>どうすれば、どう考えれば読みやすい(半年後の自分がパッと読める)コードが書けるのかがまとめられている良書でした！<br><br>ちなみにこの本サンプルコードがC++、Python、JavaScript、Javaなのである程度それらのコードが読めると尚理解が深まる！<br><br>またまたおすすめツイートに感謝✨ <a href="https://t.co/ejPSNnGB5t">pic.twitter.com/ejPSNnGB5t</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1008327742243287041?ref_src=twsrc%5Etfw">June 17, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了！(231ページ)<br><br>どうすれば、どう考えれば読みやすい(半年後の自分がパッと読める)コードが書けるのかがまとめられている良書でした！<br><br>ちなみにこの本サンプルコードがC++、Python、JavaScript、Javaなのである程度それらのコードが読めると尚理解が深まる！<br><br>またまたおすすめツイートに感謝✨ <a href="https://t.co/ejPSNnGB5t">pic.twitter.com/ejPSNnGB5t</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1008327742243287041?ref_src=twsrc%5Etfw">June 17, 2018</a></blockquote>
 
 今回は「リーダブルコード」です。私にとっては初オライリーでした。
 

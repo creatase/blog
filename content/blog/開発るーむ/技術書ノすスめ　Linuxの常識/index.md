@@ -12,7 +12,7 @@ keywords:
 
 勉強報告の一環としてこれまでに読んだ本をサクッと紹介していきます。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了！ （200ページ）<br>めちゃくちゃあっさり読めた👀<br>すごく詳しいってわけでもなく広く浅くな感じで読みやすかったです(๑و•̀ω•́)و<br>知ってる内容も結構あったかな🤔<br>ホントに“やさしい入門書”って感じでした💡<br>よーし次々٩( &#39;ω&#39; )و <a href="https://t.co/QH1PxYBhCB">pic.twitter.com/QH1PxYBhCB</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1011874522109104129?ref_src=twsrc%5Etfw">June 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了！ （200ページ）<br>めちゃくちゃあっさり読めた👀<br>すごく詳しいってわけでもなく広く浅くな感じで読みやすかったです(๑و•̀ω•́)و<br>知ってる内容も結構あったかな🤔<br>ホントに“やさしい入門書”って感じでした💡<br>よーし次々٩( &#39;ω&#39; )و <a href="https://t.co/QH1PxYBhCB">pic.twitter.com/QH1PxYBhCB</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1011874522109104129?ref_src=twsrc%5Etfw">June 27, 2018</a></blockquote>
 
 今回は「小さな会社の新米サーバー／インフラ担当者のための Linuxの常識」です（タイトル長…
 

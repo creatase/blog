@@ -62,22 +62,16 @@ Webサイトへの登録は非常に簡単でした。質問に答える形で�
 
 続いてTwitter転職をやってみました。どうだろうほとんど反応ない可能性もあるのかな〜、などと思いながら例のテンプレートを使ってツイート。
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
 <blockquote class="twitter-tweet" data-width="550" data-dnt="true">
 <p lang="ja" dir="ltr">【拡散希望】<br>Webエンジニアで転職先を探しています<br><br>勤務地：東京、大阪<br>年齢：34歳<br>時期：年内<br>スキル：HTML/CSS、JavaScript、PHP、Javaなど（スクールと独学）<br>経験：未経験<br><br>興味のある企業・人事の方いらっしゃいましたらお気軽にDMなどいただけたらと思います（詳しいプロフィールはそちらで）</p>— ゆきた＠Webエンジニアお休み中💤 (@yukita_jp) <a rel="noopener" target="_blank" href="https://twitter.com/yukita_jp/status/1060114202491215872?ref_src=twsrc%5Etfw">November 7, 2018</a>
 </blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div></figure>
 
 えー…なんとなく #hiyokonituduke や #Twitter転職 をつけませんでした。 #hiyokonituduke はエンジニア → エンジニア転職なイメージがあったので。 #Twitter転職 よりも【拡散希望】の方が効果が高い気がしたというところです。。そう、全てはなんとなくです。
 が、そのうちフォロワーさんからタグつけないの？とアドバイスいただいたので
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
 <blockquote class="twitter-tweet" data-width="550" data-dnt="true">
 <p lang="ja" dir="ltr">【拡散希望】<br>Webエンジニアで転職先を探しています<br><br>勤務地：東京、大阪<br>年齢：34歳<br>時期：年内<br>スキル：HTML/CSS、JavaScript、PHP、Javaなど（スクールと独学）<br>経験：未経験<br><br>興味のある企業・人事の方いらっしゃいましたらお気軽にDMなどいただけたらと思います<a rel="noopener" target="_blank" href="https://twitter.com/hashtag/hiyokonitsuduke?src=hash&amp;ref_src=twsrc%5Etfw">#hiyokonitsuduke</a> <a rel="noopener" target="_blank" href="https://twitter.com/hashtag/Twitter%E8%BB%A2%E8%81%B7?src=hash&amp;ref_src=twsrc%5Etfw">#Twitter転職</a></p>— ゆきた＠Webエンジニアお休み中💤 (@yukita_jp) <a rel="noopener" target="_blank" href="https://twitter.com/yukita_jp/status/1060150484718149632?ref_src=twsrc%5Etfw">November 7, 2018</a>
 </blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div></figure>
 
 と追い打ちでツイートしました。
 

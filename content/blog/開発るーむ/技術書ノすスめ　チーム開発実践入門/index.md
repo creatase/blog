@@ -12,7 +12,7 @@ keywords:
 
 勉強報告の一環として今まで読んだ本の中からこれはよかったと思える本を紹介しています。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了٩( &#39;ω&#39; )و<br><br>バージョン管理、チケット管理、テストコード、CI、CDなどの重要性が痛いほどよく分かる本📘特に最初の30ページは「うっ」てなる笑<br>ツールの選択肢はトレンドが変わってるかもだけどJenkins万能ってのがよく分かる本でした<br>開発フローが一通りイメージできておすすめです✨309ページ <a href="https://t.co/rRVDPKDreR">pic.twitter.com/rRVDPKDreR</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1045826602817380352?ref_src=twsrc%5Etfw">September 29, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了٩( &#39;ω&#39; )و<br><br>バージョン管理、チケット管理、テストコード、CI、CDなどの重要性が痛いほどよく分かる本📘特に最初の30ページは「うっ」てなる笑<br>ツールの選択肢はトレンドが変わってるかもだけどJenkins万能ってのがよく分かる本でした<br>開発フローが一通りイメージできておすすめです✨309ページ <a href="https://t.co/rRVDPKDreR">pic.twitter.com/rRVDPKDreR</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1045826602817380352?ref_src=twsrc%5Etfw">September 29, 2018</a></blockquote>
 
 今回は「チーム開発実践入門」です。チーム開発…聞いただけでドキドキしますね。（しませんね
 

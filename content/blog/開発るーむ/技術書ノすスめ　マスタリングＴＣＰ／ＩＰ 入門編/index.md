@@ -12,7 +12,7 @@ keywords:
 
 この記事では、勉強報告の一環として、私が今までに読んだ本の紹介をしていきます。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了！(334ページ)<br><br>web入門した時は&quot;お約束&quot;の一言で片付けられていたTCP/IPが実は膨大な技術と仕組みで出来ていると理解。ぼやっとしていたネットワークの細部を具体的にイメージできた。<br><br>無理のない例えと豊富な図、入門に過不足ない説明でまとめられた良書でした！<br><br>おすすめツイートに感謝✨ <a href="https://t.co/caNrI0DRVN">pic.twitter.com/caNrI0DRVN</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1007863551040487426?ref_src=twsrc%5Etfw">June 16, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">読・了！(334ページ)<br><br>web入門した時は&quot;お約束&quot;の一言で片付けられていたTCP/IPが実は膨大な技術と仕組みで出来ていると理解。ぼやっとしていたネットワークの細部を具体的にイメージできた。<br><br>無理のない例えと豊富な図、入門に過不足ない説明でまとめられた良書でした！<br><br>おすすめツイートに感謝✨ <a href="https://t.co/caNrI0DRVN">pic.twitter.com/caNrI0DRVN</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1007863551040487426?ref_src=twsrc%5Etfw">June 16, 2018</a></blockquote>
 
 今回は「マスタリングＴＣＰ/ＩＰ 入門編」です。
 

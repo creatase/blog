@@ -38,7 +38,7 @@ keywords:
 
 できた時には感動のあまり叫びました。（↓最初ちょっと間があります）
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">CSSアニメーションお試し中…<br>お腹さすりながら操作してて「動いた！」って歓喜した後に<br>手がお腹にあって『そっちじゃない』ってツッコミ入れてる自分に悲しくなった(-᷅_-᷄๑)<br>でもアニメーションおもしろい♪ <a href="https://t.co/PUw1yUUHfF">pic.twitter.com/PUw1yUUHfF</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/998380758170402817?ref_src=twsrc%5Etfw">May 21, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">CSSアニメーションお試し中…<br>お腹さすりながら操作してて「動いた！」って歓喜した後に<br>手がお腹にあって『そっちじゃない』ってツッコミ入れてる自分に悲しくなった(-᷅_-᷄๑)<br>でもアニメーションおもしろい♪ <a href="https://t.co/PUw1yUUHfF">pic.twitter.com/PUw1yUUHfF</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/998380758170402817?ref_src=twsrc%5Etfw">May 21, 2018</a></blockquote>
 
 これは単純にCSSだけで実現できました。具体的には@keyframeでアニメーションの動きの部分を先に定義しておいて、後からそれをセレクタにあてるという手順です。
 

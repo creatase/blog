@@ -40,12 +40,9 @@ PHP技術者認定試験には初級・準上級・上級・ウィザードと�
 
 一回で上級は取れなかった。。。準上級も正直ギリギリでした。
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
 <blockquote class="twitter-tweet" data-width="550" data-dnt="true">
 <p lang="ja" dir="ltr">あはははは(੭ु ˃̶͈̀ ω ˂̶͈́)੭ु⁾⁾<br><br>…一回じゃ上級は無理だったぁ( ๑´•ω•๑)🍵<br>そしてもう一回チャレンジする気が全く起こらん_(:3 」∠)_<br><br>というわけで(๑•̀ㅂ•́)و<br>PHP準上級者ゆきたです٩(๑•̀ω•́๑)۶<br>（一応合格はしてる 笑<br>（しかもギリギリ 笑笑<br><br>次は何しよっかなぁ(ت)♪<a rel="noopener" target="_blank" href="https://twitter.com/hashtag/PHP%E6%8A%80%E8%A1%93%E8%80%85%E8%AA%8D%E5%AE%9A%E8%A9%A6%E9%A8%93?src=hash&amp;ref_src=twsrc%5Etfw">#PHP技術者認定試験</a> <a rel="noopener" target="_blank" href="https://t.co/S8uLP2LQG2">pic.twitter.com/S8uLP2LQG2</a></p>— ゆきた＠Webエンジニアお休み中💤 (@yukita_jp) <a rel="noopener" target="_blank" href="https://twitter.com/yukita_jp/status/1132533588350517248?ref_src=twsrc%5Etfw">May 26, 2019</a>
 </blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div></figure>
 
 ## 勉強方針
 

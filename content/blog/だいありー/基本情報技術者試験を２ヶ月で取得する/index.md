@@ -29,7 +29,7 @@ ITパスポート同様に、私はエンジニアとしての体系的な知識
 １８年１０月２１日受験
 結果は以下のツイートの通り無事に合格できました。（午後問がちょっと危なかった…
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">遅ればせながら(๑و•̀ω•́)و<br>基本情報技術者試験合格しました〜〜〜٩(&gt;ω&lt;*)و<br>嬉しい〜よかった〜ヾ(*&gt;∀&lt;)ﾉﾞ✨ <a href="https://t.co/gvuONJFZtm">pic.twitter.com/gvuONJFZtm</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1065526718759264256?ref_src=twsrc%5Etfw">November 22, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">遅ればせながら(๑و•̀ω•́)و<br>基本情報技術者試験合格しました〜〜〜٩(&gt;ω&lt;*)و<br>嬉しい〜よかった〜ヾ(*&gt;∀&lt;)ﾉﾞ✨ <a href="https://t.co/gvuONJFZtm">pic.twitter.com/gvuONJFZtm</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1065526718759264256?ref_src=twsrc%5Etfw">November 22, 2018</a></blockquote>
 
 合格ラインは午前・午後ともに６０点です。午後試験については試験終了後に配点が決まるというちょっと特殊な仕様になっており、合格発表がされるまで合否は実質わかりません。
 ちなみに合格発表が試験日の１ヶ月後にあり、受験申し込み後に送られてくる受験票に記載されている受験番号とパスワードを使って、成績照会（上のツイート画像）をすることができます。
@@ -51,7 +51,7 @@ ITパスポート同様に、私はエンジニアとしての体系的な知識
 
 あと毎日のように過去問をつぶやいていました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おりゃーこれで最後の問題だー٩(๑•̀ω•́๑)۶<br>【毎日FE一問一答】<br>CRMの目的はどれ？</p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1053470581243277313?ref_src=twsrc%5Etfw">October 20, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おりゃーこれで最後の問題だー٩(๑•̀ω•́๑)۶<br>【毎日FE一問一答】<br>CRMの目的はどれ？</p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1053470581243277313?ref_src=twsrc%5Etfw">October 20, 2018</a></blockquote>
 
 これは解説することで理解を深めようとしていたという狙いがあります。
 
