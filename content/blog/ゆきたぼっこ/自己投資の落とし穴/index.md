@@ -50,5 +50,5 @@ keywords: note
 
 時々立ち止まってゆっくり自分と向き合う。自分の姿を確認する。そうして改めて自分を理解するために時間を使うことも自分への投資なのではないかと思うのだ。
 
-![](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/6890831/picture_pc_896120e6304f06f63f7471e087e62c47.jpg)
+![](picture_pc_896120e6304f06f63f7471e087e62c47.jpg)
 

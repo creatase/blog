@@ -21,11 +21,11 @@ keywords:
 
 最初は[Progate](https://prog-8.com/)からスタートしました。HTMLの無料枠から始め、程なく（8月〜）有料プランに切り替えてHTML、CSS、JavaScript、JQuery、Git、Command、Swift、Ruby、Railsなどをやりました。この時はSwiftやPHP、Javaにも少しずつ手を出していますが、Railsのレッスンが充実していたこともあり、最終的にはRubyを中心に学習を進めていました。まだ会社員をしていたので、仕事が終わったあと家に帰ってからコツコツと進めていたような感じです。
 
-![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-22-16.08.39.png)
+![](スクリーンショット-2018-04-22-16.08.39.png)
 
 この頃、Progateと並行して[ドットインストール](https://dotinstall.com/)も利用していました。HTML/CSSやJavaScript、Ruby、Unixコマンド、Atomなどの無料のコースをやっていました。
 
-![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-22-16.19.20.png)
+![](スクリーンショット-2018-04-22-16.19.20.png)
 
 その後、[Ruby on Rails チュートリアル](https://railstutorial.jp/)を始めます。しかしこれが私にはなかなか難しく、スクールへ通うことをこの頃から考え始めます。
 
@@ -155,7 +155,7 @@ ToDoアプリが形になったので、次はWebサービスを作ってみよ�
 とても説明が長くなってしまいました。これもJSFを使って約１ヶ月かけて作り、さくらのVPSを一時的に借りてデプロイまでしてみました。現在はGitHubにソースコードを置いていて、サービスの公開自体はしていません。→[https://github.com/creatase/Atta](https://github.com/creatase/Atta)
 こちらもIDEはNetBeansを使っています。
 
-![](https://creatase.info/wp-content/uploads/2018/10/スクリーンショット-2018-10-27-17.43.18.png)
+![](スクリーンショット-2018-10-27-17.43.18.png)
 
 #### 再び本を読み漁る 2018.9〜
 

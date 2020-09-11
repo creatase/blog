@@ -85,7 +85,7 @@ rotationはアニメーションの名前、10sは１回のアニメーション
 
 で、何とか実装できました↓。
 
-![](https://creatase.info/wp-content/uploads/2018/05/Untitled2-1.gif)
+![](Untitled2-1.gif)
 
 実績が溜まってきたら、カルーセルを２段にするとか機能を拡張してみたいと思いつつ、今はとりあえずこれでよしとしておきます。
 
@@ -99,13 +99,13 @@ rotationはアニメーションの名前、10sは１回のアニメーション
 
 まず一つ目はCSSへのコピー。（実際にやってみた↓）
 
-![](https://creatase.info/wp-content/uploads/2018/05/Untitled3.gif)
+![](Untitled3.gif)
 
 見たまんまですが、Sketchで作ったデザインを右クリックして「Copy CSS Attributes」でコピー → エディタに切り替えてペーストでポン！と諸々の設定がペーストできます。おぉ…便利。
 
 もう一つはpaddingやmarginを設定するときに、どれくらい空けたっけな？となったときにすぐに確認できる機能です。（これも実際にやってみた↓）
 
-![](https://creatase.info/wp-content/uploads/2018/05/Untitled4.gif)
+![](Untitled4.gif)
 
 これまた見たまんまですが、Sketch上で調べたいテキストなどのコンテンツを選んでoption（alt）キーを押下しながらカーソルを動かすと、選択したコンテンツとカーソル下のコンテンツの距離を表示してくれます。おぉ…便利。
 

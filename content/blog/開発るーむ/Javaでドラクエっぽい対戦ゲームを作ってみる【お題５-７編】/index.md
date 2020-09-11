@@ -22,7 +22,7 @@ System.out.println("\n\n\nスライムのこうげき！");
 yukitaHp -= 15;
 System.out.println("\nゆきたは15のダメージを受けた");
 ```
-![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-21-15.35.50.png)
+![](スクリーンショット-2018-04-21-15.35.50.png)
 
 あぁ…。とうとうダメージを…。
 
@@ -34,7 +34,7 @@ System.out.println("\nゆきたは15のダメージを受けた");
 ```Java
 System.out.println("\n--ゆきたHP：" + yukitaHp + " --");
 ```
-![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-21-15.42.55.png)
+![](スクリーンショット-2018-04-21-15.42.55.png)
 
 これでお題６もクリアです。いよいよ次で最後のお題ですね。
 
@@ -141,7 +141,7 @@ public class MiniGame {
 ```
 さて、これでうまくいけばお題を全てクリアしたことになります。実行してみます。
 
-![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-21-16.42.09.png)
+![](スクリーンショット-2018-04-21-16.42.09.png)
 
 ※画面サイズの都合で一部の改行を削除しています
 
