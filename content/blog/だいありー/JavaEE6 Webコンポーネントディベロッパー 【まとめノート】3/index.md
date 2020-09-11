@@ -25,39 +25,49 @@ keywords:
 ### @DeclareRoles
 
 セキュリティロールの指定に使用。@RolesAllowedで宣言されたロールは＠DeclareRolesで宣言する必要はない。
-
+```Java
 @DeclareRoles("Admin") // Adminというロールの利用を宣言
-
+```
 これはデプロイメント記述子の中で以下のように定義するのと等価。
-
-\<web-app\> \<security-role\> \<role-name\>Admin\</role-name\> \</security-role\> \</web-app\>
-
+```xml
+<web-app>
+  <security-role>
+    <role-name>Admin</role-name>
+  </security-role>
+</web-app>
+```
 ### @EJB
 
 デプロイメント記述子でのejb-refまたはejb-local-ref要素を宣言するのと等価。
-
+```Java
 @EJB private ShoppingCart myCart;
-
+```
 ### @EJBs
 
 単一のリソース上で複数の＠EJBを宣言する際に使用。
-
+```Java
 @EJBs({@EJB(Calculator), @EJB(ShoppingCart)})
-
+```
 ### @Resource
 
 デプロイメント記述子でのresource-ref、message-destination-ref、env-ref、resource-env-ref要素の宣言と等価。クラス、メソッドあるいはフィールド上で指定する。
-
-@Resource private javax.sql.DataSource catalogDS; public getProductsByCategory() { // get a connection and execute the query Connection conn = catalogDS.getConnection(); .. }
-
+```Java
+@Resource private javax.sql.DataSource catalogDS;
+public getProductsByCategory() {
+    // get a connection and execute the query
+    Connection conn = catalogDS.getConnection();
+..
+}
+```
 この例ではjavax.sql.DataSource型のcatalogDSを宣言。
 
 ### @PersistenceContext
 
 EntityManagerをインジェクトする。
-
-@PersistenceContext EntityManager em;
-
+```Java
+@PersistenceContext
+EntityManager em;
+```
 ### @PersistenceContexts
 
 複数の@PersistenceContextの宣言時に使用。
@@ -65,9 +75,10 @@ EntityManagerをインジェクトする。
 ### @PersistenceUnit
 
 EntityManagerFactoryをインジェクトする。
-
-@PersistenceUnit EntityManagerFactory emf;
-
+```Java
+@PersistenceUnit
+EntityManagerFactory emf;
+```
 ### @PersistenceUnits
 
 複数の@PersistenceUnitの宣言時に使用。
@@ -75,35 +86,52 @@ EntityManagerFactoryをインジェクトする。
 ### @PostConstruct
 
 依存性注入後に初期化のために実行する必要のあるメソッドに対して使用。引数はなし、戻り値はvoidでなければならない。
-
-@PostConstruct public void postConstruct() { ... }
-
+```Java
+@PostConstruct
+public void postConstruct() {
+  ...
+}
+```
 ### @PreDestroy
 
 インスタンスがコンテナにより削除処理中であることを知らせるためのコールバック通知としてメソッドで使用。戻り値はvoid。
-
-@PreDestroy public void cleanup() { // オープンなリソースのクリーンアップ ... }
-
+```Java
+@PreDestroy
+public void cleanup() {
+  // オープンなリソースのクリーンアップ
+  ...
+}
+```
 ### @Resources
 
 複数の@Resourceアノテーションのコンテナとして機能する。
-
-@Resources ({ @Resource(name=”myDB” type=javax.sql.DataSource), @Resource(name=”myMQ” type=javax.jms.ConnectionFactory) })
-
+```Java
+@Resources ({
+@Resource(name=”myDB” type=javax.sql.DataSource),
+@Resource(name=”myMQ” type=javax.jms.ConnectionFactory)
+})
+```
 ### @RunAs
 
 デプロイメント記述子の中のrun-as要素と等価。
-
-@RunAs(“Admin”) public class CalculatorServlet { ... }
-
-\<servlet\> \<servlet-name\>CalculatorServlet\</servlet-name\> \<run-as\>Admin\</run-as\> \</servlet\>
-
+```Java
+@RunAs(“Admin”)
+public class CalculatorServlet {
+  ...
+}
+```
+```xml
+<servlet>
+    <servlet-name>CalculatorServlet</servlet-name>
+    <run-as>Admin</run-as>
+</servlet>
+```
 ### @WebServiceRef
 
 デプロイメント記述子の中のresource-ref要素と同じ。
-
+```Java
 @WebServiceRef private MyService service;
-
+```
 ### @WebServiceRefs
 
 複数の@WebServiceRefアノテーションを可能にする。

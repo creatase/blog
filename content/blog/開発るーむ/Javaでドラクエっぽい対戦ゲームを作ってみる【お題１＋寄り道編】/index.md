@@ -19,9 +19,13 @@ keywords:
 ### クラスを宣言する
 
 まずはじめに、MiniGameクラスとmainメソッドを宣言します。
+```Java
+public class MiniGame {
+  public static void main(String[] args) {
 
-public class MiniGame { public static void main(String[] args) { } }
-
+  }
+}
+```
 Javaでは、実行するファイル名とその中でmainメソッドを持つクラス名が一致していなければなりません。なのでクラス名はMiniGameクラスとします。Atomには、入力の補完機能がついているので、mainとだけ打ってreturnキーを押せば、自動的にmainメソッドの構文が補完されます。
 
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-8.06.28.png)
@@ -35,16 +39,24 @@ Javaでは、実行するファイル名とその中でmainメソッドを持つ
 ### HPを宣言して表示してみる
 
 次に、ゆきたとスライムそれぞれのHPを宣言して、表示させてみます。とりあえず何も考えずstatic intとしてそれぞれ宣言します。宣言したHPの変数を使って、mainメソッド内にHPを表示させるコードを書きます。（ちなみにplと入力→returnでSystem.out.println{}が自動補完されて書かれます。便利機能はどんどん使います）
-
-public class MiniGame { static int yukitaHp = 100; static int slimeHp = 100; public static void main(String[] args) { System.out.println("--ゆきたHP：" + yukitaHp + " --"); System.out.println("--スライムHP：" + slimeHp + " --"); } }
+```Java
+public class MiniGame {
+  static int yukitaHp = 100;
+  static int slimeHp = 100;
+  public static void main(String[] args) {
+    System.out.println("--ゆきたHP：" + yukitaHp + " --");
+    System.out.println("--スライムHP：" + slimeHp + " --");
+  }
+}
+```
 ここで一度コンパイルして実行してみます。
 
 Javaでは今書いているようなソースコードをコンパイルして一旦バイトコードに変換します。そして変換後のバイトコードを実行環境で実行して、プログラムを動かすという手順を踏みます。コンパイルでは平たく言えばプログラムの書き方が合っているかどうかがチェックされます。なので、ルール通りに書けていないとコンパイルエラーとなってエラー内容が表示されます。何事もなくコンパイルが通れば何も表示されません。
 
 ではやってみます。コンパイルはjavacコマンドを使います。
-
+```bash
 $ javac MiniGame.java
-
+```
 するとこんな表示が、
 
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-8.53.34.png)
@@ -60,13 +72,13 @@ $ javac MiniGame.java
 参考記事→[MacのターミナルやiTermでのJavaエラーメッセージ文字化け解消](https://qiita.com/fgnhssb/items/519a614b42e24330fbc4)
 
 ターミナルでホームディレクトリに移動して
-
+```bash
 $ cd ~
-
+```
 .bash\_profileを作成してvim（ターミナル上で動くエディタ）で内容を編集します。
-
-$ vi .bash\_profile
-
+```bash
+$ vi .bash_profile
+```
 実行するとvimが立ち上がり下のような編集画面に変わります。
 
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-9.20.22.png)
@@ -76,9 +88,10 @@ vimの操作は少し慣れが必要ですが、落ち着いて操作すれば�
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-9.24.17.png)
 
 左下の表示が– INSERT –に変わればインサートモードになっています。この状態で以下の内容をコピペします。
-
-alias javac='javac -J-Dfile.encoding=UTF-8' alias java='java -Dfile.encoding=UTF-8'
-
+```bash
+alias javac='javac -J-Dfile.encoding=UTF-8'
+alias java='java -Dfile.encoding=UTF-8'
+```
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-9.27.32.png)
 
 この状態にできたら、コマンドモードに戻ります（最初の状態）。コマンドモードに戻るにはescキーを押します。
@@ -92,15 +105,15 @@ alias javac='javac -J-Dfile.encoding=UTF-8' alias java='java -Dfile.encoding=UTF
 入力したコマンドは左下に表示されています。コマンドが正しいことを確認してreturnキーを押すと、コマンドが実行されてvimが閉じターミナルの表示に戻ります。
 
 それでは気を取り直してコンパイルしてみます。
-
+```bash
 $ javac MiniGame.java
-
+```
 今度はうまくいきました。（何も表示されなくて成功です）
 
 さらに実行してみます。実行はjavaコマンドを使います。指定するファイル名は.classを除いたもので指定します。
-
+```bash
 $ java MiniGame
-
+```
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-9.46.25.png)
 
 今度はうまく表示されましたね。

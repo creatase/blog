@@ -27,25 +27,30 @@ keywords:
 ## ランダムに５回表示
 
 まず文字列の配列arrayを宣言して、表示する選択肢の「ズン」と「ドコ」を要素として代入しました。
-
+```Java
 String[] array = {"ズン", "ドコ"};
-
+```
 で、この配列からランダムで要素を指定して５回表示するというのを考えます。配列の要素はarray[j]で j 番目の値を指定できるので、この j の部分に０（→ズン）か１（→ドコ）をランダムに入れれば、「ズン」と「ドコ」をランダムに指定できそうです。
 
 ０か１をランダムに取得するのはjava.util.RamdomクラスのnextInt(int bound)メソッドを使いました。
-
+```Java
 public int nextInt(int bound)
-
+```
 このメソッドでは０から引数のbound – 1の整数をランダムに返します。なのでnextInt( 2 )とすれば０か１がランダムで返されます。また、見ての通りインスタンスメソッドなのでインスタンスを作って使用します。
-
-Random r = new Random(); r.nextInt(2); //ランダムで0か1
+```Java
+Random r = new Random();
+r.nextInt(2); //ランダムで0か1
+```
 これを先ほどの配列arrayの添字（インデックス）に突っ込みます。
-
+```Java
 array[r.nextInt(2)]; //ランダムでズンかドコ
+```
 あとはこれをループで５回繰り返せば良さそうです。今回はfor文を使ってみます。
-
-for(int i = 0; i \< 5; i++) { System.out.print(array[r.nextInt(2)]); }
-
+```Java
+for(int i = 0; i \< 5; i++) {
+  System.out.print(array[r.nextInt(2)]);
+}
+```
 他にもif文を使ったりswitch文を使ったり色々やり方があると思いますが、「ズン」か「ドコ」が５回表示されてれば問題ないと思います。とりあえずこれはこれで終わりにして次行きます。
 
 ## 正解の”ズンズンズンズンドコ”と比較
@@ -55,36 +60,93 @@ for(int i = 0; i \< 5; i++) { System.out.print(array[r.nextInt(2)]); }
 今回はStringBuilderクラスのappend(String str)メソッドを使いました。
 
 もちろんStringで変数を宣言して += 演算子で「ズン」「ドコ」を足していっても問題ないと思います。
-
-StringBuilder sb = new StringBuilder(); for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); }
+```Java
+StringBuilder sb = new StringBuilder();
+for(int i = 0; i < 5; i++) {
+  sb.append(array[r.nextInt(2)]);
+}
+```
 これで「ズン」「ドコ」を５回ランダムに繋げたので、toString()メソッドで文字列に変換して表示します。
-
-String str = sb.toString(); System.out.println(str);
-
+```Java
+String str = sb.toString();
+System.out.println(str);
+```
 最後にequalsメソッドを使って正解の文字列と比較して、一致した場合に「キヨシ」を表示するようにします。
-
-String correctStr = "ズンズンズンズンドコ"; if(str.equals(correctStr)){ System.out.println("きよし！！！");}
-
+```Java
+String correctStr = "ズンズンズンズンドコ";
+if(str.equals(correctStr)){
+  System.out.println("きよし！！！");
+}
+```
 これでstrの中身が”ズンズンズンズンドコ”なら”きよし！！！”と表示されるようになりました。
 
 次の過程のために一応ここまでをまとめておきます。
+```Java
+import java.util.Random;
 
-import java.util.Random; public class Zundoko1 { public static void main(String[] args) { String correctStr = "ズンズンズンズンドコ"; String[] array = {"ズン", "ドコ"}; Random r = new Random(); StringBuilder sb = new StringBuilder(); for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); } String str = sb.toString(); System.out.println(str); if(str.equals(correctStr)){ System.out.println("きよし！！！"); } } }
-
+public class Zundoko1 {
+  public static void main(String[] args) {
+    String correctStr = "ズンズンズンズンドコ";
+    String[] array = {"ズン", "ドコ"};
+    Random r = new Random();
+    StringBuilder sb = new StringBuilder();
+    for(int i = 0; i < 5; i++) {
+      sb.append(array[r.nextInt(2)]);
+    }
+    String str = sb.toString();
+    System.out.println(str);
+    if(str.equals(correctStr)){
+      System.out.println("きよし！！！");
+    }
+  }
+}
+```
 ## きよし！！！が出るまでループ
 
 では最後、”きよし！！！”が出るまでループさせてみます。ちなみにこのプログラムの条件だと変数strの中身が”ズンズンズンズンドコ”になる確率は1/32。つまり約3％（結構低い…
 
 さて、上のどの部分をループさせれば良いかを考えます。for文以下をループさせればいいかなぁと最初考えました。今回はwhile文を使って条件式にtrueを入れて”きよし！！！”が表示された場合にbreak文でループを抜けるようにしています。
-
-while(true){ for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); } String str = sb.toString(); System.out.println(str); if(str.equals(correctStr)){ System.out.println("きよし！！！"); break; } }
-
+```Java
+while(true){
+  for(int i = 0; i < 5; i++) {
+    sb.append(array[r.nextInt(2)]);
+  }
+  String str = sb.toString();
+  System.out.println(str);
+  if(str.equals(correctStr)){
+    System.out.println("きよし！！！");
+    break;
+  }
+}
+```
 なんとなく良さそうに見えますが、これではまずいのです。なぜなら変数sbがループの最初で初期化されていないので、最初の１回で”きよし！！！”が出なければ、以降延々と「ズン」と「ドコ」が足され続けて無限ループになります。（なりました落ちました 笑
 
 なのでループの最初に初期化処理を持って来ましょう。その他改行など入れると最終的にこんな感じになりました。（以下全文
+```Java
+import java.util.Random;
 
-import java.util.Random; public class Zundoko1 { public static void main(String[] args) { String correctStr = "ズンズンズンズンドコ"; String[] array = {"ズン", "ドコ"}; Random r = new Random(); StringBuilder sb; while(true){ sb = new StringBuilder(); for(int i = 0; i \< 5; i++) { sb.append(array[r.nextInt(2)]); } String str = sb.toString(); System.out.println(str); if(str.equals(correctStr)){ System.out.println(); System.out.println("きよし！！！"); break; } } } }
-
+public class Zundoko1 {
+  public static void main(String[] args) {
+    String correctStr = "ズンズンズンズンドコ";
+    String[] array = {"ズン", "ドコ"};
+    Random r = new Random();
+    StringBuilder sb;
+    while(true){
+      sb = new StringBuilder();
+      for(int i = 0; i < 5; i++) {
+        sb.append(array[r.nextInt(2)]);
+      }
+      String str = sb.toString();
+      System.out.println(str);
+      if(str.equals(correctStr)){
+        System.out.println();
+        System.out.println("きよし！！！");
+        break;
+      }
+    }
+  }
+}
+```
 実行するとこうなります。（５回実行）
 
 ![](https://creatase.info/wp-content/uploads/2018/06/ズンズンズンズンドコ1-1.gif)

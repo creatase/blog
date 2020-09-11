@@ -22,8 +22,7 @@ keywords:
 これらを踏まえて書き直したコードを実行したものを今回はおまけとしてアップします。
 
 ↓
-
-Javaでドラクエっぽい対戦ゲームを作ってみた
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pQrprtv4dk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ちょっと会心の一撃出過ぎですが、スライムも本家よりだいぶしぶといのでちょうどいい気がします。
 

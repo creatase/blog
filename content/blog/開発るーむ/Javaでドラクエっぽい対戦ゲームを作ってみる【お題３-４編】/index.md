@@ -19,9 +19,18 @@ keywords:
 さて、お題３に入る前に前回の忘れ物を片付けておきたいと思います。前回はプレーヤーからのコマンドを受け取るところまでをやりましたが、肝心の受け取ったコマンドに合わせた内容を設定していませんでした。
 
 入力したコマンドに合わせてストーリーを分岐させます。Javaでは分岐させる方法としてif文、switch文、条件演算子（三項演算子）があります。今回は「1：たたかう」「２：にげる」「それ以外」が入力される可能性があります。特に理由はありませんが今回はswitch文で書いてみます。
-
-switch (choice) { case 1: System.out.println("\nゆきたはたたかうことをえらんだ！"); break; case 2: System.out.println("\nゆきたはにげだした"); break; default: System.out.println("\n1か2を入力してください"); }
-
+```Java
+switch (choice) {
+  case 1:
+    System.out.println("\nゆきたはたたかうことをえらんだ！");
+    break;
+  case 2:
+    System.out.println("\nゆきたはにげだした");
+    break;
+  default:
+    System.out.println("\n1か2を入力してください");
+}
+```
 これで実行して2を入力すると私はにげだします。
 
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-15.06.46.png)
@@ -31,16 +40,32 @@ switch (choice) { case 1: System.out.println("\nゆきたはたたかうこと�
 ## お題３ まずゆきたが攻撃。４回に１回会心の一撃を繰り出せる。
 
 それでは気を取り直してお題３です。プレーヤーの攻撃は、攻撃したことを表示 ＋ スライムのHPを減算処理 + スライムへのダメージの表示の順で書いていきます。「たたかうことをえらんだ」の下に以下のコードを書きます。
-
-System.out.println("\nゆきたのこうげき！！"); slimeHp -= 10; System.out.println("\nスライムに10のダメージを与えた！");
+```Java
+System.out.println("\nゆきたのこうげき！！");
+slimeHp -= 10;
+System.out.println("\nスライムに10のダメージを与えた！");
+```
 
 会心の一撃は減算量を増加させることで表現します。「４回に１回」を実現するやり方はいくつかありますが、今回はRandomクラスのnextInt()メソッドを利用してみます。nextInt()メソッドは引数にint（整数）をとり、０から（整数−１）までの整数をランダムに返すインスタンスメソッドです。nextInt()メソッドで0,1,2,3をランダムに生成し、生成した整数が１の時に会心の一撃を繰り出す条件分岐をif-else文で書いてみます。
-
-Random random = new Random(); int critical = random.nextInt(4); System.out.println("\nゆきたのこうげき！！"); if (critical == 1) { System.out.println("\nゆきたは会心の一撃をはなった！！"); slimeHp -= 30; System.out.println("\nスライムに30のダメージを与えた！"); } else { slimeHp -= 10; System.out.println("\nスライムに10のダメージを与えた！"); }
+```Java
+Random random = new Random();
+int critical = random.nextInt(4);
+System.out.println("\nゆきたのこうげき！！");
+if (critical == 1) {
+  System.out.println("\nゆきたは会心の一撃をはなった！！");
+  slimeHp -= 30;
+  System.out.println("\nスライムに30のダメージを与えた！");
+} else {
+  slimeHp -= 10;
+  System.out.println("\nスライムに10のダメージを与えた！");
+}
+```
 
 ついでに会心の一撃をはなったことも表示させてみます。なおRandomクラスはjava.utilパッケージで提供されていますので、import文を忘れずに書いておきます。
-
-import java.io.\*; import java.util.Random;
+```Java
+import java.io.*;
+import java.util.Random;
+```
 実行結果は、
 
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-15.39.24.png)
@@ -52,23 +77,38 @@ import java.io.\*; import java.util.Random;
 ## お題４ 攻撃を受けたスライムの様子を出力する
 
 これは攻撃を受けた後のスライムのHPを条件にした分岐で考えます。特に理由はありませんが条件演算子で書いてみます。条件演算子は条件式の後ろに？をつけて、そのあとに：を挟んで左側に条件式の評価がtrue、右側にfalseの時の式を書きます。
-
-String status = "スライムは"; status += slimeHp \>= 80 ? "不気味に笑っている" : slimeHp \>= 60 ? "まだ余裕の表情だ" : slimeHp \>= 40 ? "動きが鈍くなってきた" : slimeHp \>= 20 ? "何とか踏みとどまっている" : slimeHp \> 0 ? "今にも倒れそうだ" : "ちから尽きた"; System.out.println(status);
-
+```Java
+String status = "スライムは";
+status += slimeHp >= 80 ? "不気味に笑っている"
+        : slimeHp >= 60 ? "まだ余裕の表情だ"
+        : slimeHp >= 40 ? "動きが鈍くなってきた"
+        : slimeHp >= 20 ? "何とか踏みとどまっている"
+        : slimeHp > 0 ? "今にも倒れそうだ"
+        : "ちから尽きた";
+System.out.println(status);
+```
 少しややこしいですがネストした条件演算子を書いてみました。最初に文字列statusを宣言して「スライムは」で初期化しています。続く２行目以降で「スライムは」のあとに続く文字列をslimeHpの数値で切り替えています。
 
 試しにプレーヤの会心の一撃のダメージを130にして何度か実行してみます。
 
+**通常の攻撃の場合**
+
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.16.11.png)
 
-通常の攻撃の場合
+
+**会心の一撃の場合**
+
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.16.43.png)
 
-会心の一撃の場合
 
 スライムの残り体力によって表示される状態を変えることができました。最後にスライムを倒した後の表示も足しておきましょう。
-
-if (slimeHp \<= 0) { System.out.println("\nゆきたはスライムをやっつけた！"); System.out.println("ゆきたは16の経験値を手に入れた！"); System.out.println("ゆきたは26ゴールド手に入れた！"); }
+```Java
+if (slimeHp <= 0) {
+  System.out.println("\nゆきたはスライムをやっつけた！");
+  System.out.println("ゆきたは16の経験値を手に入れた！");
+  System.out.println("ゆきたは26ゴールド手に入れた！");
+}
+```
 ![](https://creatase.info/wp-content/uploads/2018/04/スクリーンショット-2018-04-20-16.39.10.png)
 
 だいぶそれらしくなってきましたね。

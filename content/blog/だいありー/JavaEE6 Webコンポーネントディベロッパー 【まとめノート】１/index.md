@@ -47,46 +47,73 @@ JavaEE6のドキュメント（英語）はこちらになります。
 非同期処理を使うには明示的な指定が必要。
 
 ＠WebServletアノテーションにはasyncSupported属性がありデフォルト値はfalseとなっている。これをasyncSupported=trueと指定する。
-
+```Java
 ＠WebServlet(urlPatterns = "path", asyncSupported=true)
-
+```
 サーブレットの中（doXXXメソッド内）で、HttpServletRequestオブジェクトのstartAsyncメソッドによりAsyncContextオブジェクトを取得する。取得したAsyncContextオブジェクトに対し、startメソッドを実行することでstartメソッドの引数に渡したラムダ式（Runnableオブジェクトのrunメソッド：Runnableインターフェースを実装した別クラスを作っても良い）が別スレッド（非同期処理用スレッド）で実行される。
-
-AsyncContext asyncCtx = request.startAsync(request, response); asyncCtx.start(() -\> { /\*ここに非同期処理用スレッドで実行する処理を書く\*/ });
-
+```Java
+AsyncContext asyncCtx = request.startAsync(request, response);
+asyncCtx.start(() -> { /*ここに非同期処理用スレッドで実行する処理を書く*/ });
+```
 サーブレット自体は処理を非同期処理用スレッドに移譲して終了するので、別のリクエストの処理が可能になる。
 
 一方処理を移譲された非同期処理用スレッドは処理の結果を生成、ビューなどへフォワードするなどして、最後にAsyncContextオブジェクトのcompleteメソッドを呼びスレッドを完了する。
-
-非同期処理内容 //時間のかかる処理など //フォワード処理 asyncCtx.complete(); //非同期処理用スレッドの完了
-
+```Java
+非同期処理内容
+  //時間のかかる処理など
+  //フォワード処理
+  asyncCtx.complete(); //非同期処理用スレッドの完了
+```
 フォワード処理のみを非同期処理化することも可能。その場合はAsyncContextオブジェクトのdispatchメソッドを使う。この場合はcompleteメソッドの呼び出しは不要。
-
-AsyncContext asyncCtx = request.startAsync(request, response); asyncCtx.dispatch("path");
-
+```Java
+AsyncContext asyncCtx = request.startAsync(request, response);
+asyncCtx.dispatch("path");
+```
 非同期処理を実装したサーブレットの前後にフィルタを入れる場合はそのフィルタにも明示的な指定が必要。＠WebFilterアノテーションにasyncSupported=trueと指定する。指定しないとエラーになる。
-
+```Java
 @WebFilter(urlPatterns = "path", asyncSupported=true)
-
+```
 また、非同期処理後のディスパッチにフィルタを適用する場合はフィルタの＠WebFilterアノテーションにdispatcherTypes=DispatcherType.ASYNCと指定するか、web.xmlの\<filter-mapping\>内に\<dispatcher\>ASYNC\</dispatcher\>と指定する。
-
-アノテーションで指定 @WebFilter(urlPatterns = "path", asyncSupported=true, dispatcherTypes=DispatcherType.ASYNC)
-
-web.xmlで指定 \<filter-mapping\> \<filter-name\>name\</filter-name\> \<url-pattern\>path\</url-pattern\> \<dispatcher\>ASYNC\</dispatcher\> \</filter-mapping\>
-
+```Java
+アノテーションで指定
+@WebFilter(
+  urlPatterns = "path",
+  asyncSupported = true,
+  dispatcherTypes = DispatcherType.ASYNC
+)
+```
+```xml
+web.xmlで指定
+<filter-mapping>
+  <filter-name>name</filter-name>
+  <url-pattern>path</url-pattern>
+  <dispatcher>ASYNC</dispatcher>
+</filter-mapping>
+```
 非同期処理の各タイミングで処理を実行するリスナを作成可能。AsyncListenerインターフェースを実装したリスナクラスを用意する。
-
-private static class MyListener implements AsyncListener { @Override public void onComplete(AsyncEvent event) throws IOException { 処理 } @Override public void onError(AsyncEvent event) throws IOException { 処理 } @Override public void onStartAsync(AsyncEvent event) throws IOException { 処理 } @Override public void onTimeout(AsyncEvent event) throws IOException { 処理 } }
-
+```Java
+private static class MyListener implements AsyncListener {
+  @Override
+  public void onComplete(AsyncEvent event) throws IOException { 処理 }
+  @Override
+  public void onError(AsyncEvent event) throws IOException { 処理 }
+  @Override
+  public void onStartAsync(AsyncEvent event) throws IOException { 処理 }
+  @Override
+  public void onTimeout(AsyncEvent event) throws IOException { 処理 }
+}
+```
 - onCompleteメソッド：処理完了時
 - onErrorメソッド：処理に失敗した時
 - onStartAsyncメソッド：非同期処理の中で別の非同期処理を開始した時
 - onTimeout：処理が指定時間内に終わらない時
 
 非同期処理を発生させるサーブレット内（doXXXメソッド内）でリスナクラスのオブジェクトをAsyncContextオブジェクトのaddListenerメソッドの第１引数に渡してセットする。
-
-AsyncContext asyncCtx = request.startAsync(request, response); asyncCtx.addListener(new MyListener(), request, response); asyncCtx.start(() -\> { /\*ここに非同期処理用スレッドで実行する処理を書く\*/ });
-
+```Java
+AsyncContext asyncCtx = request.startAsync(request, response);
+asyncCtx.addListener(new MyListener(), request, response);
+asyncCtx.start(() -> { /*ここに非同期処理用スレッドで実行する処理を書く*/ });
+```
 多分全然内容足りてないけど主要なとこだけピックアップしています。
 
 こちらの記事が大変参考になります。→[Servlet標準の非同期処理に触れてみる(Qiita)](https://qiita.com/kazuki43zoo/items/8be79f98621f90865b78)

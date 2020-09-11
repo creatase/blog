@@ -29,25 +29,30 @@ keywords:
 ## 下準備
 
 まず最初にターミナルでJavaのバージョンを確認しておきます。
-
+```bash
 $ javac -version
-
+```
 上のコマンドでコンパイラのバージョンが表示されます（バージョンの番号はこの数字以上なら違っていても多分大丈夫）。
-
+```bash
 javac 1.6.0\_65
-
+```
 続いて実行環境のバージョンを確認。
-
+```bash
 $ java -version
-
+```
 下のようにバージョンの情報が表示されれば大丈夫。
-
-java version "1.6.0\_65" Java(TM) SE Runtime Environment (build 1.6.0\_65-b14-468) Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-468, mixed mode)
-
+```bash
+java version "1.6.0_65"
+Java(TM) SE Runtime Environment (build 1.6.0_65-b14-468)
+Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-468, mixed mode)
+```
 次に、コードを書くjavaファイルを作ります。今回はホームディレクトリの下に「myGames」というフォルダを作って、その中にMiniGame.javaを作成して、このファイルにコードを書いて保存していきます。
-
-$ cd ~ $ mkdir myGames $ cd !$ $ touch MiniGame.java
-
+```bash
+$ cd ~
+$ mkdir myGames
+$ cd !$
+$ touch MiniGame.java
+```
 !$はコマンドに渡した最後の文字列を呼び出します。この場合は「myGames」となり、コマンドとしてはcd myGamesが実行されることになります。
 
 早速、Atomで「MiniGame.java」を開いてみます。
