@@ -66,7 +66,9 @@ ITパスポート同様に、私はエンジニアとしての体系的な知識
 栢木先生の基本情報技術者教室のみです。
 
 [![](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4774193275&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yukita2a01-22)](https://www.amazon.co.jp/gp/product/4774193275/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774193275&linkCode=as2&tag=yukita2a01-22&linkId=a61bd1701666b3444816e272d0f79b4d) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4774193275)
+
 [平成30年度 イメージ&クレバー方式でよくわかる栢木先生の基本情報技術者教室 (情報処理技術者試験)](https://www.amazon.co.jp/gp/product/4774193275/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4774193275&linkCode=as2&tag=yukita2a01-22&linkId=0cd7b1727c34f8efdb811c451a4d785e) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4774193275)
+
 基本情報技術者試験の参考書は多数ありますので、実際に書店で手にとってみて、説明のわかりやすいと思うものを選ぶのが良いと思います。人によってはイラストが多いほうがいいとか、わかりやすい文章で書かれているほうが良いなど、合う合わないがあります。
 
 ## 受験本番

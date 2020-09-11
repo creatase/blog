@@ -19,11 +19,13 @@ PHP技術者認定試験には初級・準上級・上級・ウィザードと�
 各ランクのレベル感（概要）はこんな感じ↓
 
 初級：PHPプログラミングの基本知識を問う試験
-　→[https://www.phpexam.jp/summary/novice7/](https://www.phpexam.jp/summary/novice7/)
+→[https://www.phpexam.jp/summary/novice7/](https://www.phpexam.jp/summary/novice7/)
+
 準上級／上級：PHPの言語仕様から実用的なプログラミングテクニックまでの知識を問う試験
-　→[https://www.phpexam.jp/summary/expert/](https://www.phpexam.jp/summary/expert/)
+→[https://www.phpexam.jp/summary/expert/](https://www.phpexam.jp/summary/expert/)
+
 ウィザード：PHPの発展に貢献できる知識と発想力を持つこと
-　→[https://www.phpexam.jp/summary/wizard/](https://www.phpexam.jp/summary/wizard/)
+→[https://www.phpexam.jp/summary/wizard/](https://www.phpexam.jp/summary/wizard/)
 
 で、今回私が受けてみたのは「準上級／上級」です。
 準上級／上級試験は初級を持っていなくても受験が可能だったので、初級をすっ飛ばしてこちらを受験してみました。

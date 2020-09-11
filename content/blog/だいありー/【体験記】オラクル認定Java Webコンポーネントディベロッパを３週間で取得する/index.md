@@ -18,8 +18,6 @@ keywords:
 
 Java EEを利用したWebサービスなどを開発するための知識が問われる試験。文字通りWebコンポーネント開発者を対象としている資格です。Goldに比べると難易度は少しトーンが下がります。受験前提条件としてJava SE8 Goldに合格していることが必須となります。
 
-→[Java EE 6 Web Component Developer Certified Expert](http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-899&p_org_id=70&lang=JA#exam-details)
-
 ## 背景
 
 Java SE8 Goldを無事に取得。詳細はこちらの記事をどうぞ。

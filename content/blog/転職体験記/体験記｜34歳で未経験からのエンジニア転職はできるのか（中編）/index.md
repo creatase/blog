@@ -14,15 +14,15 @@ keywords:
 
 #### 希望条件など
 
-希望職種：Webエンジニア（サーバーサイド）
-勤務地：東京、大阪、京都、奈良
-年齢：34歳
-時期：年内（2018年）
-年収：300万〜
-スキル：HTML/CSS、JavaScript、PHP、Java、JavaEE、MariaDB
-環境：Git、GitHub、Eclipse、NetBeans、IntelliJ IDEA、VPS（CentOS）
-興味があること：AWS、Docker、Spring、kotlin、Scalaなど
-経験：未経験（上記スキル・環境はいずれも独学）
+- 希望職種：Webエンジニア（サーバーサイド）
+- 勤務地：東京、大阪、京都、奈良
+- 年齢：34歳
+- 時期：年内（2018年）
+- 年収：300万〜
+- スキル：HTML/CSS、JavaScript、PHP、Java、JavaEE、MariaDB
+- 環境：Git、GitHub、Eclipse、NetBeans、IntelliJ IDEA、VPS（CentOS）
+- 興味があること：AWS、Docker、Spring、kotlin、Scalaなど
+- 経験：未経験（上記スキル・環境はいずれも独学）
 
 Twitter転職用のテンプレ的に書くとこんな感じになりますね。
 勤務地については、特にこだわりはありませんでした。なぜ住んでいる奈良以外の東京、大阪、京都を入れたかというと、仕事がありそうだったからです。もちろん東京に決まれば引越しますし、近県ですが大阪や京都でも通勤時間が惜しいので引越すつもりでいました。独身に戻ったということもあって、この辺りは身軽に動けましたね。

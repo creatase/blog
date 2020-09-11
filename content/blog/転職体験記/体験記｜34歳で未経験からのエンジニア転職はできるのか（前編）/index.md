@@ -78,17 +78,20 @@ Java SE8 Goldを持っていることが受験の条件となるこの資格。J
 
 資格勉強を通じての知識収集がひと段落したので、次は何か作ろうと考え、ポートフォリオサイトを作りました。さくらのレンタルサーバを借り、構成、デザイン、コーディング、フォーム実装などを約８日で行いました。CSSアニメーションを入れたり、カルーセルを入れたり、JavaScriptやPHPを調べながら実装するのがまた楽しかったです。HTML、CSS、JavaScript、JQuery、PHPで作っています。
 作った過程→[ポートフォリオサイト制作日記 Vol.1 企画編](https://creatase.info/portfolio_site_creation_1/)
-実際のサイトはこちら→[Creatase portfolio](https://portfolio.creatase.info/)
 
 #### JavaEE７を学習 2018.5〜
 
 最後に取った資格がJavaEE6のものだったので、JavaEE7について書かれていたこちらの本で学習を始めました。
+
 [![](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4798045187&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yukita2a01-22)](https://www.amazon.co.jp/gp/product/4798045187/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4798045187&linkCode=as2&tag=yukita2a01-22&linkId=fdc4f9a8c7e1b4724db9d8369781c720) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=4798045187)
 
 [Javaサーバーサイドプログラミングパーフェクトマスター](https://www.amazon.co.jp/gp/product/4798045187/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4798045187&linkCode=as2&tag=yukita2a01-22&linkId=0de13bae8ae12f5ec4dab8e8633fccdc)
 が、解説の難解さ、本文の誤植、サンプルコードの誤植などがあり、フレームワークの学習というよりもデバッグの練習というような感じになってしまいました。それでも一応２週間で学習を終えました。（この本は辛かった…）
+
 余談ですが、もしJavaEE7の学習を考えている方がいらっしゃれば断然こちらの書籍をおすすめします。（あくまで個人的な感想です）
+
 [![](//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B00XTOSYIY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yukita2a01-22)](https://www.amazon.co.jp/gp/product/B00XTOSYIY/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00XTOSYIY&linkCode=as2&tag=yukita2a01-22&linkId=b683f547c24bb750388ff040314b6469) ![](//ir-jp.amazon-adsystem.com/e/ir?t=yukita2a01-22&l=am2&o=9&a=B00XTOSYIY)
+
 [わかりやすいJava EE ウェブシステム入門](https://www.amazon.co.jp/gp/product/B00XTOSYIY/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00XTOSYIY&linkCode=as2&tag=yukita2a01-22&linkId=bcd182347d9a67e1c974df951eae54b0)
 
 #### ズンドコプログラムを作る 2018.6
@@ -116,9 +119,7 @@ SNS上である日ふと目にしたプログラムのお題的なものが面�
 
 #### もくもく会を主催する 2018.7〜
 
-基本的には家で一人でもくもくと学習・作業を続けていた私ですが「仲間が欲しい」「他の人の話も聞いてみたい」と感じていて、もくもく会という形式の勉強会があることを知り、大阪で開催されたもくもく会に参加しました。この時、私が住んでいる奈良からの参加者も一定数いたので、じゃあ奈良でも開催しようということになり、月に１回のペースでもくもく会を主催しています。
-
-（ちなみに会の名前は「【非公式】Progateもくもく会 in Nara」。connpass上で参加申し込みができますので、ご興味あるかたはぜひご参加くださいませ。→ [12/15 開催回 【非公式】Progateもくもく会 in Nara](https://connpass.com/event/110988/)）
+基本的には家で一人でもくもくと学習・作業を続けていた私ですが「仲間が欲しい」「他の人の話も聞いてみたい」と感じていて、もくもく会という形式の勉強会があることを知り、大阪で開催されたもくもく会に参加しました。この時、私が住んでいる奈良からの参加者も一定数いたので、じゃあ奈良でも開催しようということになり、月に１回のペースでもくもく会を主催していました。
 
 #### Todoアプリを作る 2018.7
 
@@ -133,7 +134,6 @@ SNS上である日ふと目にしたプログラムのお題的なものが面�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">できた(｡ŏ_ŏ)<br>一応機能的には仕様通りです(๑و•̀ω•́)و<br>見た目は仕様にはありませんでした笑<br>これからもう少しだけ機能を追加して、あとほどほどに見た目を整えたいと思います(*´-`)<br>やっぱり作りながらだと必要に応じて調べながらやるから理解も違ってくるなー <a href="https://t.co/BaZSJNT0rm">pic.twitter.com/BaZSJNT0rm</a></p>&mdash; ゆきた＠スリープ中 (@yukita_jp) <a href="https://twitter.com/yukita_jp/status/1021346077083983872?ref_src=twsrc%5Etfw">July 23, 2018</a></blockquote>
 
-このコードはGitHubに置いてあります。→[https://github.com/creatase/TodoAppy](https://github.com/creatase/TodoApp)
 ちなみに使っているIDEはNetBeansで、DB連携しています。
 
 #### Webサービス(naeatta)を作る 2018.8〜
@@ -152,8 +152,7 @@ ToDoアプリが形になったので、次はWebサービスを作ってみよ�
 
 * * *
 
-とても説明が長くなってしまいました。これもJSFを使って約１ヶ月かけて作り、さくらのVPSを一時的に借りてデプロイまでしてみました。現在はGitHubにソースコードを置いていて、サービスの公開自体はしていません。→[https://github.com/creatase/Atta](https://github.com/creatase/Atta)
-こちらもIDEはNetBeansを使っています。
+とても説明が長くなってしまいました。これもJSFを使って約１ヶ月かけて作り、さくらのVPSを一時的に借りてデプロイまでしてみました。サービスの公開自体はしていません。こちらもIDEはNetBeansを使っています。
 
 ![](スクリーンショット-2018-10-27-17.43.18.png)
 
